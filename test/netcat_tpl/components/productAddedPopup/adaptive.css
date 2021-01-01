@@ -1,0 +1,33 @@
+@media (max-width: 790px) {
+  .tpl-component-product-added-popup .popup-content-inner {
+    padding: 28px 6% 34px; }
+  .tpl-component-product-added-popup .popup-content-wrap {
+    width: 520px; }
+  .tpl-component-product-added-popup .popup-content-header {
+    font-weight: 600; }
+  .tpl-component-product-added-popup .popup-content-icon {
+    display: none; }
+  .tpl-component-product-added-popup .popup-content-caption {
+    padding-top: 1px; }
+  .tpl-component-product-added-popup .popup-content-buttons {
+    padding: 47px 0px 0; }
+  .tpl-component-product-added-popup .button--form {
+    padding: 14px 10px 15px;
+    width: 212px; } }
+
+@media (max-width: 560px) {
+  .tpl-component-product-added-popup .popup-content-inner {
+    padding: 28px 20px 24px; }
+  .tpl-component-product-added-popup .popup-content-wrap {
+    width: 320px; }
+  .tpl-component-product-added-popup .popup-content-buttons {
+    justify-content: center;
+    padding: 27px 0px 0; }
+  .tpl-component-product-added-popup .popup-content-caption {
+    padding-top: 5px;
+    font-size: 14px; }
+  .tpl-component-product-added-popup .popup-content-header {
+    font-size: 18px;
+    line-height: 28px; }
+  .tpl-component-product-added-popup .button--form {
+    margin-bottom: 15px; } }

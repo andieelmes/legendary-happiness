@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="181px" viewBox="0 0 181 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_fav-empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Избранное_пусто" transform="translate(-352.000000, -145.000000)">
+            <g id="icon_fav-empty" transform="translate(353.000000, 146.000000)">
+                <circle id="Oval-8" stroke="#989EAF" opacity="0.5" cx="89.5" cy="89.5" r="89.5"></circle>
+                <path d="M104,97.826087 L118,97.826087 L118,126 L90,101.347826 L62,126 L62,97.826087 L76,97.826087 L62,97.826087 L62,54 L118,54 L118,97.826087 L104,97.826087 Z" id="Combined-Shape" fill="#989EAF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

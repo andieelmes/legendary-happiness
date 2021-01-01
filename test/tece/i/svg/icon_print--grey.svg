@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Избранное" transform="translate(-724.000000, -117.000000)" fill="#DEDEDE">
+            <g id="Кнопка-добавить-в-корзину-Copy-2" transform="translate(553.000000, 105.000000)">
+                <g id="Page-1" transform="translate(171.000000, 12.000000)">
+                    <path d="M4.9995,12.4995 L4.9995,15.00075 L4.9995,18.7495 L14.9995,18.7495 L14.9995,15.00075 L14.9995,12.4995 L4.9995,12.4995 Z M6.25075,15.00075 L13.7495,15.00075 L13.7495,13.75075 L6.25075,13.75075 L6.25075,15.00075 Z M6.25075,17.50075 L13.7495,17.50075 L13.7495,16.25075 L6.25075,16.25075 L6.25075,17.50075 Z" id="Fill-1"></path>
+                    <polygon id="Fill-2" points="4.9995 -0.000375 4.9995 3.750875 4.9995 6.249625 14.9995 6.249625 14.9995 3.750875 14.9995 -0.000375"></polygon>
+                    <path d="M17.5,3.75 L16.25,3.75 L16.25,6.25 L16.25,7.5 L3.75,7.5 L3.75,6.25 L3.75,3.75 L2.5,3.75 C1.25,3.75 0,5 0,6.25 L0,12.5 C0,13.75 1.25,15 2.5,15 L3.75,15 L3.75,12.5 L3.75,11.25 L16.25,11.25 L16.25,12.5 L16.25,15 L17.5,15 C18.75,15 20,13.75 20,12.5 L20,6.25 C20,5 18.75,3.75 17.5,3.75" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

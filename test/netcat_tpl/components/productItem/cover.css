@@ -1,0 +1,29 @@
+.product-cover {
+  position: relative;
+  text-align: left;
+  padding: 50px 20px 40px 60px;
+  display: block; }
+  .product-cover:hover .button {
+    color: var(--color-font-9); }
+  .product-cover-title {
+    display: block;
+    z-index: 20;
+    text-align: left;
+    position: relative; }
+  .product-cover .product-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .product-cover .product-image img {
+      max-width: initial; }
+  .product-cover .button {
+    margin-top: 4px; }

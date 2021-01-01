@@ -1,0 +1,11 @@
+.tpl-component-news-list[max-width~="1000px"] {
+  padding: 0  20px; }
+
+.tpl-component-news-list[max-width~="500px"] {
+  padding: 0; }
+  .tpl-component-news-list[max-width~="500px"] .news-list {
+    padding: 21px 0 18px;
+    flex-direction: column; }
+    .tpl-component-news-list[max-width~="500px"] .news-list-top {
+      border-bottom: 2px solid var(--color-border-5);
+      padding: 34px 0 9px; }

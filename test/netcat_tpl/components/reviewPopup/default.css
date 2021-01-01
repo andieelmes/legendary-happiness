@@ -1,0 +1,138 @@
+.tpl-component-review-popup {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  z-index: 100;
+  display: none; }
+  .tpl-component-review-popup .popup-content {
+    display: table-cell;
+    vertical-align: middle; }
+    .tpl-component-review-popup .popup-content-wrap {
+      width: 720px;
+      padding: 20px 10px;
+      margin: 0 auto;
+      position: relative;
+      height: 100vh;
+      display: table; }
+    .tpl-component-review-popup .popup-content-close {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 40px;
+      width: 40px;
+      display: block;
+      z-index: 10; }
+      .tpl-component-review-popup .popup-content-close:before {
+        content: '\004d';
+        font-family: var(--icons-elegant);
+        position: absolute;
+        color: var(--color-font-7);
+        top: 8px;
+        left: 2px;
+        font-size: 26px;
+        line-height: 30px; }
+      .tpl-component-review-popup .popup-content-close:hover:before, .tpl-component-review-popup .popup-content-close:active:before {
+        color: var(--color-font-5);
+        transition: all 0.2s; }
+    .tpl-component-review-popup .popup-content-inner {
+      background: var(--color-bg-7);
+      position: relative;
+      box-shadow: 0px 7px 52px 0px var(--color-bs-1);
+      padding: 70px 7%; }
+      .tpl-component-review-popup .popup-content-inner--big {
+        padding: 33px 13% 63px; }
+    .tpl-component-review-popup .popup-content-header {
+      font-size: 24px;
+      line-height: 30px;
+      font-family: var(--font-2);
+      font-weight: 700;
+      color: var(--color-font-2);
+      text-align: left;
+      padding-top: 20px;
+      max-width: 500px; }
+    .tpl-component-review-popup .popup-content-desc {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-family: var(--font-1);
+      color: var(--color-font-14); }
+    .tpl-component-review-popup .popup-content-stars {
+      display: inline-block;
+      vertical-align: top; }
+    .tpl-component-review-popup .popup-content-star {
+      position: relative;
+      margin-right: 7px; }
+      .tpl-component-review-popup .popup-content-star:before {
+        position: relative;
+        top: 1px;
+        font-size: 16px;
+        content: '\e031';
+        font-family: var(--icons-elegant); }
+      .tpl-component-review-popup .popup-content-star.active:before {
+        color: var(--color-font-2);
+        content: '\e033'; }
+    .tpl-component-review-popup .popup-content-words {
+      display: inline-block;
+      vertical-align: top; }
+    .tpl-component-review-popup .popup-content-word {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      font-family: var(--font-1);
+      color: var(--color-font-2);
+      display: none;
+      line-height: 18px; }
+      .tpl-component-review-popup .popup-content-word.active {
+        display: inline-block;
+        vertical-align: top; }
+    .tpl-component-review-popup .popup-content-inputs {
+      padding-top: 31px; }
+    .tpl-component-review-popup .popup-content-label {
+      position: relative;
+      margin-bottom: 29px;
+      display: block; }
+      .tpl-component-review-popup .popup-content-label-icon {
+        position: absolute;
+        left: 12px;
+        top: 7px;
+        width: 21px;
+        height: 21px;
+        background-image: url(../img/icons/sprite.png);
+        content: ""; }
+      .tpl-component-review-popup .popup-content-label--name .popup-content-label-icon {
+        background-position: -21px -21px; }
+      .tpl-component-review-popup .popup-content-label--phone .popup-content-label-icon {
+        background-position: -42px -21px; }
+      .tpl-component-review-popup .popup-content-label--email .popup-content-label-icon {
+        background-position: 0px -21px; }
+      .tpl-component-review-popup .popup-content-label--password .popup-content-label-icon {
+        background-position: -63px -21px; }
+    .tpl-component-review-popup .popup-content-input {
+      background-size: 21px 21px;
+      background-position: 12px 7px;
+      background-repeat: no-repeat;
+      border-color: var(--color-border-21);
+      width: 100%;
+      border-radius: 2px;
+      padding-left: 18px;
+      padding-right: 18px; }
+      .tpl-component-review-popup .popup-content-input:focus + .popup-content-label-icon {
+        background-position-y: 0; }
+      .tpl-component-review-popup .popup-content-input--textarea {
+        height: 120px;
+        resize: none; }
+      .tpl-component-review-popup .popup-content-input:focus {
+        border-color: var(--color-border-20); }
+    .tpl-component-review-popup .popup-content-buttons {
+      text-align: center;
+      padding: 0px 0px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .tpl-component-review-popup .popup-content-buttons .button {
+        width: 100%; }

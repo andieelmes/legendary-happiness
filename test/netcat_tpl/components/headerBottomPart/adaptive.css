@@ -1,0 +1,6 @@
+.tpl-component-header-bottom-part .site-categories[max-width~="1100px"] {
+  padding: 26px 2% 35px 2%; }
+
+@media (max-width: 1000px) {
+  .tpl-component-header-bottom-part {
+    display: none; } }

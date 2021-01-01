@@ -1,0 +1,72 @@
+.tpl-component-product-description {
+  padding-top: 1px;
+  margin-top: -1px; }
+  .tpl-component-product-description .product-tab {
+    display: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-2);
+    color: var(--color-font-5);
+    padding: 10px 0px;
+    letter-spacing: 0.7px;
+    margin: 0 30px;
+    transition: all 0.2s; }
+  .tpl-component-product-description .product-description-inside {
+    display: none;
+    margin-bottom: 75px; }
+  .tpl-component-product-description.active .product-description-inside {
+    display: block; }
+  .tpl-component-product-description .product-description-header {
+    font-size: 32px;
+    font-family: var(--font-2);
+    line-height: 42px;
+    color: var(--color-font-2);
+    font-weight: 700;
+    text-align: center;
+    padding: 22px 0;
+    max-width: 700px;
+    margin: 0 auto; }
+  .tpl-component-product-description .product-description-text {
+    font-family: var(--font-4);
+    font-size: 17px;
+    line-height: 32px;
+    padding: 8px 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center; }
+  .tpl-component-product-description .product-description-info {
+    background-color: var(--color-bg-7);
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    padding: 70px 0 0; }
+  .tpl-component-product-description .product-description-photo {
+    max-width: 580px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tpl-component-product-description .product-description-content {
+    flex-grow: 1;
+    padding-left: 20px;
+    margin-left: 1%;
+    padding-bottom: 119px; }
+  .tpl-component-product-description .product-description-table {
+    margin-top: 48px; }
+  .tpl-component-product-description .product-description-row {
+    border-bottom: 1px solid var(--color-border-14); }
+  .tpl-component-product-description .product-description-feature {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-2);
+    color: var(--color-font-2);
+    font-weight: 600;
+    padding: 17px 0 6px;
+    max-width: 360px;
+    width: 60.3%; }
+  .tpl-component-product-description .product-description-value {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-4);
+    color: var(--color-font-2);
+    padding: 17px 0 6px; }

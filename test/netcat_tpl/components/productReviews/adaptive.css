@@ -1,0 +1,75 @@
+.tpl-component-product-reviews[max-width~="1100px"] .product-review {
+  flex-wrap: nowrap; }
+  .tpl-component-product-reviews[max-width~="1100px"] .product-review-content {
+    max-width: 700px; }
+
+.tpl-component-product-reviews[max-width~="900px"] .product-reviews {
+  padding-top: 52px; }
+  .tpl-component-product-reviews[max-width~="900px"] .product-reviews-buttonMore {
+    margin-top: 10px; }
+
+.tpl-component-product-reviews[max-width~="900px"] .product-review {
+  flex-direction: column; }
+  .tpl-component-product-reviews[max-width~="900px"] .product-review-content {
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 40px; }
+
+.tpl-component-product-reviews[max-width~="720px"] .product-reviews-bottom {
+  text-align: center; }
+
+.tpl-component-product-reviews[max-width~="720px"] .product-reviews-buttonMore {
+  margin: 10px auto; }
+
+.tpl-component-product-reviews[max-width~="720px"] .product-reviews-inside {
+  padding-bottom: 0; }
+
+.tpl-component-product-reviews[max-width~="720px"] .product-tab {
+  display: block; }
+
+.tpl-component-product-reviews[max-width~="720px"] .product-reviews-inside {
+  display: block;
+  margin-bottom: 30px; }
+
+.tpl-component-product-reviews[max-width~="500px"] .product-reviews-controls {
+  padding-top: 0px;
+  margin-top: -1px;
+  margin-right: 17px; }
+
+.tpl-component-product-reviews[max-width~="500px"] .title-italic {
+  font-size: 16px; }
+
+.tpl-component-product-reviews[max-width~="500px"] .product-review {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .tpl-component-product-reviews[max-width~="500px"] .product-review-content {
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+  .tpl-component-product-reviews[max-width~="500px"] .product-review-name {
+    font-size: 14px; }
+  .tpl-component-product-reviews[max-width~="500px"] .product-review-date {
+    font-size: 12px; }
+
+.tpl-component-product-reviews[max-width~="500px"] .button {
+  width: 100%; }
+
+.tpl-component-product-reviews[max-width~="400px"] .product-reviews-top {
+  flex-direction: column; }
+
+.tpl-component-product-reviews[max-width~="400px"] .product-reviews-header {
+  border-bottom: 2px solid var(--color-border-5);
+  padding-bottom: 9px; }
+
+.tpl-component-product-reviews[max-width~="400px"] .product-reviews-controls {
+  margin-top: 13px; }
+
+.tpl-component-product-reviews[max-width~="400px"] .product-reviews-buttonMore:before {
+  left: -130px;
+  top: 9px;
+  font-size: 22px; }
+
+.tpl-component-product-reviews[max-width~="400px"] .button {
+  font-size: 12px;
+  padding: 12px 20px; }

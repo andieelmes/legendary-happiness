@@ -95,6 +95,7 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addPassthroughCopy("work");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("test");
   eleventyConfig.addPassthroughCopy("css/**/*.css");

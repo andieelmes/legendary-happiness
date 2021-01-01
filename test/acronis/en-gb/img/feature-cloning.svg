@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="463px" height="69px" viewBox="0 0 463 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="62.5506779%" y1="100%" x2="62.5506759%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#1271C2" offset="0%"></stop>
+            <stop stop-color="#1C76F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATI-Particular-feature-#2" transform="translate(-442.000000, -349.000000)">
+            <g id="Group-12" transform="translate(-16.000000, 0.000000)">
+                <g id="Group-3" transform="translate(458.000000, 349.000000)">
+                    <rect id="Rectangle-14-Copy-5" fill="#E3E6ED" x="0" y="0" width="463" height="69" rx="1.6"></rect>
+                    <rect id="Rectangle-15-Copy" fill="#FFFFFF" x="49" y="38" width="402" height="21"></rect>
+                    <rect id="Rectangle-15-Copy" fill="url(#linearGradient-1)" x="10" y="38" width="233" height="21"></rect>
+                    <text id="Disk-cloning-in-prog" font-family="ArialMT, Arial" font-size="11.2" font-weight="normal" fill="#8C959B">
+                        <tspan x="9" y="23">Disk cloning in progress... </tspan>
+                    </text>
+                    <text id="Estimated-time-left:" font-family="ArialMT, Arial" font-size="11.2" font-weight="normal" fill="#8C959B">
+                        <tspan x="312.327344" y="23">Estimated time left: 26 mins.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

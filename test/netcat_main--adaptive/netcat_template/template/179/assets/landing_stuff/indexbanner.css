@@ -1,0 +1,363 @@
+@font-face {
+	font-family:'Neris';
+	src: url('Neris-Black_gdi.eot');
+	src: url('Neris-Black_gdi.eot?') format('embedded-opentype'),
+		url('Neris-Black_gdi.woff') format('woff'),
+		url('Neris-Black_gdi.ttf') format('truetype'),
+		url('Neris-Black_gdi.otf') format('opentype'),
+		url('Neris-Black_gdi.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-F6D0;
+}
+
+@font-face {
+	font-family:'Neris';
+	src: url('Neris-Light_gdi.eot');
+	src: url('Neris-Light_gdi.eot?') format('embedded-opentype'),
+		url('Neris-Light_gdi.woff') format('woff'),
+		url('Neris-Light_gdi.ttf') format('truetype'),
+		url('Neris-Light_gdi.otf') format('opentype'),
+		url('Neris-Light_gdi.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-F6D0;
+}
+
+@font-face {
+	font-family:'Neris';
+	src: url('Neris-LightItalic_gdi.eot');
+	src: url('Neris-LightItalic_gdi.eot?') format('embedded-opentype'),
+		url('Neris-LightItalic_gdi.woff') format('woff'),
+		url('Neris-LightItalic_gdi.ttf') format('truetype'),
+		url('Neris-LightItalic_gdi.otf') format('opentype'),
+		url('Neris-LightItalic_gdi.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-F6D0;
+}
+
+@font-face {
+	font-family:'Neris';
+	src: url('Neris-SemiBold_gdi.eot');
+	src: url('Neris-SemiBold_gdi.eot?') format('embedded-opentype'),
+		url('Neris-SemiBold_gdi.woff') format('woff'),
+		url('Neris-SemiBold_gdi.ttf') format('truetype'),
+		url('Neris-SemiBold_gdi.otf') format('opentype'),
+		url('Neris-SemiBold_gdi.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-F6D0;
+}
+
+
+.indexbanner {
+	position: relative;
+	padding: 35px 0 55px 45px;
+	background: url(mainbanner.jpg) no-repeat top;
+	background-size: cover;
+	color:#fff;
+	font-family:'Neris';
+}
+
+.indexbanner-title {
+	position: relative;
+	font-size:72px;
+	line-height:1em;
+	font-weight: 900;
+	max-width:660px
+}
+
+.indexbanner-description {
+	position: relative;
+	font-weight: 600;
+	font-size:18px;
+	line-height:1.333em;
+	padding: 20px 0 0 0;
+	max-width:340px;
+}
+
+.indexbanner-arrow {
+	background: url(i-arr.png) no-repeat;
+	width:151px;
+	height:30px;
+	background-size: 100% 100%;
+	display:inline-block;
+	vertical-align: top;
+	margin-top:35px;
+	margin-left:25px
+}
+
+.indexbanner-inside {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 55px 0 100px;
+    max-width: 1260px;
+}
+
+
+.indexbanner-btn-wrapper {
+	position: absolute;
+	left:700px;
+	bottom:0px;
+	z-index:1;
+}
+
+.indexbanner-btn {
+	width: 190px;
+	height: 127px;
+	padding: 63px 0 0 0;
+	border-radius: 50%;
+	display:block;
+	position: relative;
+	color: #fff;
+	z-index:1100 !important;
+	background: #f37214;
+	font-family: 'Neris';
+	box-shadow: 0 0 30px rgba(0,0,0,.3);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.indexbanner-btn:hover {
+	background: #fd9345;
+	color:#fff;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.indexbanner-btn span {
+	border-bottom:1px solid rgba(255,255,255,0.4);
+	font-size:24px;
+	line-height:28px;
+	font-weight: 600;
+	margin:0 auto;
+	text-align: center;
+}
+
+.indexbanner-rocket {
+	display:block;
+	color:#fff;
+	opacity: 1;
+	position: absolute;
+	left:-20%;
+	top:40%;
+	font-size: 30px;
+	z-index:1;
+
+	width:140%;
+	text-align: right;
+	background: url(i-rocket.png) no-repeat right center;
+	background-size: 30px 45px;
+	height:45px;
+	z-index:99;
+
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+
+
+.indexbanner-date {
+	position: absolute;
+	width:150px;
+	text-align: center;
+	color:#fff;
+	font-size:18px;
+	line-height:22px;
+	font-family:'Neris';
+	font-weight: 600;
+	right:100px;
+	top:50px;
+  display: none;
+}
+
+.indexbanner-date-title {
+	margin-bottom:20px;
+	display:block;
+	color:#fff;
+	opacity: 0.5;
+	font-size: 30px;
+}
+
+.indexbanner-title-link {
+	display:none;
+}
+
+.indexbanner-date-mobile {
+	display:none;
+}
+
+
+
+@media (max-width: 1000px) {
+  .indexbanner {
+    padding-left:0;
+  }
+}
+
+@media (max-width:700px) {
+.indexbanner .inside {
+  max-width: 510px;
+}
+}
+
+@media (max-width: 1100px) {
+  .indexbanner {padding-left:0;}
+}
+
+@media (max-width: 1180px) {
+
+	.indexbanner-date {
+		right:4%;
+	}
+}
+
+
+@media (max-width: 1080px) {
+
+	.indexbanner-date {
+		display:none;
+	}
+}
+
+
+@media (max-width: 1020px) {
+
+	.indexbanner-btn-wrapper {
+		bottom:-20px;
+		left:560px;
+	}
+
+	.indexbanner-arrow {
+		width:121px;
+		background-position: right center;
+	}
+}
+
+
+@media (max-width: 800px) {
+
+	.indexbanner-arrow {
+		width:81px;
+		background-size: auto 100%;
+		background-position: right center;
+	}
+
+	.indexbanner-btn-wrapper {
+		bottom:-30px;
+		left:510px;
+	}
+}
+
+
+@media (max-width: 740px) {
+
+	.indexbanner {
+		padding: 20px !important;
+		height: auto !important;
+	}
+
+	.indexbanner > div {
+		width: auto !important;
+		height: auto !important;
+		margin: 0 !important;
+	}
+
+	.indexbanner-title {
+		display:none;
+	}
+
+	.indexbanner-title-link {
+		display:block;
+		font-size:52px;
+		line-height:1em;
+		font-family: 'Neris';
+		font-weight: 900;
+		color:#fff;
+	}
+
+	.indexbanner-title-link a {
+		color:#fff;
+	}
+
+	.indexbanner-btn-wrapper {
+		display:none;
+	}
+
+	.indexbanner-description {
+		padding:20px 0 0 0;
+		max-width:400px;
+	}
+
+	.indexbanner-date-mobile {
+		display:block;
+		border-radius: 50%;
+		background: #f37214;
+		color:#fff;
+		text-align: center;
+		width:160px;
+		height:160px;
+		bottom:-100px;
+		right:-10px;
+		position: absolute;
+	}
+
+	.indexbanner-date-mobile b {
+		font-size:52px;
+		line-height:46px;
+		font-weight: 900;
+		display:block;
+		padding:38px 0 0 0;
+	}
+
+	.indexbanner-date-mobile span {
+		font-size:24px;
+		display:block;
+		line-height:32px;
+	}
+}
+
+
+@media (max-width: 540px) {
+
+	.indexbanner {
+		padding: 40px 0 120px 0;
+	}
+
+	.indexbanner-date-mobile {
+		width: 140px;
+		height:140px;
+		bottom:-140px;
+	}
+
+	.indexbanner-date-mobile b {
+		padding-top:28px;
+	}
+}
+
+@media (max-width:540px) {
+.indexbanner .inside {
+ max-width: 340px;
+}
+}
+
+@media (max-width: 1020px) {
+.indexbanner-arrow {
+   margin-left: 0;
+}
+.indexbanner-btn-wrapper {
+   left: 570px;
+}
+}
+
+
+@media (max-width: 800px) {
+.indexbanner-btn-wrapper {
+   left: 510px;
+}
+}

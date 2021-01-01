@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="34px" viewBox="0 0 40 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>0051_L_complete_business_protection</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-38.9277344%" y1="59.8697917%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7FB0F6" offset="0%"></stop>
+            <stop stop-color="#76A8F1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="73.3192845%" y2="80.8169959%" id="linearGradient-4">
+            <stop stop-color="#7AACF6" offset="0%"></stop>
+            <stop stop-color="#5489DC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#5D96F0" offset="0%"></stop>
+            <stop stop-color="#6AA0F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-15.9749349%" y1="-25.1790365%" x2="100%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#295296" offset="0%"></stop>
+            <stop stop-color="#3E78D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-31.9867302%" y1="-43.4619141%" x2="100%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Split-page-Business-products" transform="translate(-77.000000, -2733.000000)">
+            <g id="0051_L_complete_business_protection" transform="translate(72.000000, 2726.000000)">
+                <g id="Group-13" transform="translate(5.000000, 7.000000)">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" opacity="0.4" x="0.0740055504" y="4.90410243" width="28.4181314" height="19.6164097"></rect>
+                    <path d="M22.2756707,12.2602561 L39.1489362,12.2602561 L39.1489362,21.2576149 C39.1489362,25.3448009 37.1970681,29.1862417 33.8958822,31.5960677 L30.7123034,33.9200418 L27.5287247,31.5960677 C24.2275388,29.1862417 22.2756707,25.3448009 22.2756707,21.2576149 L22.2756707,12.2602561 Z" id="Rectangle-6" fill="url(#linearGradient-2)" opacity="0.5"></path>
+                    <polygon id="Combined-Shape" fill="url(#linearGradient-3)" points="28.4921369 12.2602561 28.4921369 24.5205122 22.2756707 24.5205122 22.2756707 12.2602561"></polygon>
+                    <path d="M30.7123034,12.2602561 L39.1489362,12.2602561 L39.1489362,24.601796 C39.1489362,26.5977948 38.1583956,28.4844842 36.4592667,29.7248279 L30.7123034,33.9200418 L30.7123034,12.2602561 Z" id="Combined-Shape" fill="url(#linearGradient-4)"></path>
+                    <path d="M0.0740055504,4.90410243 L28.4921369,4.90410243 L28.4921369,9.1296577 C28.4921369,12.6642801 25.6267593,15.5296577 22.0921369,15.5296577 L6.47400555,15.5296577 C2.93938315,15.5296577 0.0740055504,12.6642801 0.0740055504,9.1296577 L0.0740055504,4.90410243 Z" id="Rectangle-Copy" fill="url(#linearGradient-5)" opacity="0.35"></path>
+                    <path d="M28.4921369,12.2602561 L22.2756707,12.2602561 L22.2756707,15.5296577 L24.9398705,15.5296577 C26.9017331,15.5296577 28.4921369,14.0658967 28.4921369,12.2602561 Z" id="Combined-Shape" fill="url(#linearGradient-6)"></path>
+                    <rect id="Rectangle-3" fill="url(#linearGradient-7)" x="11.6188714" y="13.4862817" width="5.32839963" height="4.90410243"></rect>
+                    <path d="M9.84273821,7.35615365 L9.84273821,3.67807682 C9.84273821,3.00096158 10.4391396,2.45205122 11.1748381,2.45205122 L17.3913043,2.45205122 C18.1270028,2.45205122 18.7234043,3.00096158 18.7234043,3.67807682 L18.7234043,7.35615365 L21.3876041,7.35615365 L21.3876041,3.67807682 C21.3876041,1.64673108 19.5983997,-1.45190598e-15 17.3913043,0 L11.1748381,0 C8.96774272,0 7.17853839,1.64673108 7.17853839,3.67807682 L7.17853839,7.35615365 L9.84273821,7.35615365 Z" id="Rectangle-10" fill="url(#linearGradient-8)" fill-rule="nonzero" opacity="0.45"></path>
+                    <rect id="Rectangle-4" fill="#548AE3" x="18.7234043" y="4.90410243" width="2.66419981" height="2.45205122"></rect>
+                    <rect id="Rectangle-7" fill="#568AE3" x="7.17853839" y="4.90410243" width="2.66419981" height="2.45205122"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

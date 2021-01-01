@@ -1,0 +1,57 @@
+.tpl-component-catalog-menu {
+  padding: 24px 0px;
+  margin-bottom: 64px; }
+  .tpl-component-catalog-menu .catalog-menu-items {
+    max-width: 217px;
+    padding-left: 24px; }
+    .tpl-component-catalog-menu .catalog-menu-items--noArrow .catalog-menu-title:before {
+      display: none; }
+    .tpl-component-catalog-menu .catalog-menu-items.active .catalog-menu-options {
+      display: block; }
+    .tpl-component-catalog-menu .catalog-menu-items.active .catalog-menu-title {
+      color: var(--color-font-5); }
+    .tpl-component-catalog-menu .catalog-menu-items.active .catalog-menu-title:before {
+      transform: rotate(-180deg);
+      transform-origin: top left;
+      color: var(--color-font-5);
+      transition: transform 0.2s;
+      left: -5px;
+      top: 20px; }
+  .tpl-component-catalog-menu .catalog-menu-title {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: var(--font-2);
+    color: var(--color-font-1);
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    margin: 26px 0 0;
+    cursor: pointer; }
+    .tpl-component-catalog-menu .catalog-menu-title:hover, .tpl-component-catalog-menu .catalog-menu-title:active {
+      color: var(--color-font-8); }
+      .tpl-component-catalog-menu .catalog-menu-title:hover:before, .tpl-component-catalog-menu .catalog-menu-title:active:before {
+        color: var(--color-font-8); }
+    .tpl-component-catalog-menu .catalog-menu-title:before {
+      position: absolute;
+      content: '\33';
+      left: -24px;
+      top: 0;
+      font-family: var(--icons-elegant);
+      color: var(--color-font-2);
+      font-size: 18px;
+      font-weight: 400; }
+  .tpl-component-catalog-menu .catalog-menu-options {
+    display: none; }
+  .tpl-component-catalog-menu .catalog-menu-item {
+    font-family: var(--font-4);
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-font-1);
+    text-transform: none;
+    font-weight: 400;
+    display: block;
+    padding: 2px 8px 2px; }
+    .tpl-component-catalog-menu .catalog-menu-item:first-child {
+      padding-top: 12px; }
+    .tpl-component-catalog-menu .catalog-menu-item:last-child {
+      padding-bottom: 0px; }

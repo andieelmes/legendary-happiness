@@ -1,0 +1,63 @@
+@media (max-width: 850px) {
+  .tpl-component-login-popup.login-image .popup-content-wrap {
+    width: 320px; }
+  .tpl-component-login-popup.login-image .popup-content-outer {
+    flex-direction: column-reverse; }
+  .tpl-component-login-popup.login-image .popup-content-inner {
+    padding: 37px 30px 36px 30px; }
+    .tpl-component-login-popup.login-image .popup-content-inner--black {
+      padding: 27px 30px 36px 30px; }
+  .tpl-component-login-popup.login-image .popup-content-images {
+    width: 300px; }
+  .tpl-component-login-popup.login-image .popup-content-pros {
+    display: none; }
+  .tpl-component-login-popup.login-image .popup-content-inputs {
+    padding-top: 20px; }
+  .tpl-component-login-popup.login-image .popup-content-buttons {
+    padding: 5px 0px 0; }
+  .tpl-component-login-popup.login-image .popup-content-forgot {
+    padding-bottom: 15px; }
+  .tpl-component-login-popup.login-image .popup-content-social {
+    padding: 18px 0 17px; }
+  .tpl-component-login-popup.login-image .popup-content-images .popup-content-header {
+    display: none; }
+  .tpl-component-login-popup.login-image .popup-content-images .popup-content-buttons {
+    padding-top: 0px; }
+    .tpl-component-login-popup.login-image .popup-content-images .popup-content-buttons .button {
+      width: 100%; }
+  .tpl-component-login-popup.reg-social-bottom .popup-content-bottom {
+    margin-top: 28px; }
+  .tpl-component-login-popup.reg-social-bottom .popup-content-caption {
+    padding-bottom: 20px; }
+  .tpl-component-login-popup.reg-social-bottom .popup-content-social {
+    padding: 1px 0 0px; }
+  .tpl-component-login-popup.reg-social-bottom .popup-content .button--social {
+    margin-right: 16px;
+    margin-left: 0; }
+    .tpl-component-login-popup.reg-social-bottom .popup-content .button--social:first-child {
+      margin-right: 16px; } }
+
+@media (max-width: 560px) {
+  .tpl-component-login-popup .popup-content-wrap {
+    width: 320px; }
+  .tpl-component-login-popup .popup-content-inner {
+    padding: 27px 30px 46px 30px; }
+  .tpl-component-login-popup .popup-content-header {
+    font-size: 16px; }
+    .tpl-component-login-popup .popup-content-header--alternative {
+      font-size: 14px;
+      line-height: 26px; }
+  .tpl-component-login-popup .popup-content-social {
+    padding: 26px 0 27px; }
+  .tpl-component-login-popup .popup-content-caption:after {
+    display: none; }
+  .tpl-component-login-popup .popup-content-inputs {
+    padding-top: 20px; }
+  .tpl-component-login-popup .popup-content-buttons {
+    padding: 5px 0px 0; }
+  .tpl-component-login-popup .popup-content-forgot {
+    padding-bottom: 15px; }
+  .tpl-component-login-popup .popup-content-bottom {
+    flex-direction: column; }
+  .tpl-component-login-popup.reg .popup-content-buttons .button {
+    margin: 0 auto; } }

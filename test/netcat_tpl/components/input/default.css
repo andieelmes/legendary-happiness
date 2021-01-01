@@ -1,0 +1,24 @@
+.input {
+  font-size: 18px;
+  line-height: 23px;
+  font-family: var(--font-3);
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: top;
+  color: var(--color-font-2);
+  background-color: var(--color-bg-8);
+  border: 1px solid var(--color-border-6);
+  margin: 0;
+  box-shadow: 0;
+  -webkit-appearance: none; }
+  .input::-webkit-input-placeholder, .input::-moz-placeholder, .input::-ms-input-placeholder, .input::-moz-placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--font-2);
+    color: var(--color-font-2);
+    font-weight: 400; }
+  .input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: var(--color-border-9);
+    background-color: var(--color-bg-7); }

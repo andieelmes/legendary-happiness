@@ -1,0 +1,191 @@
+@media (max-width: 1230px) {
+    .lds_first, .lds_info {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .lds_audit-results {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .lds_speed-image {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1140px) {
+    .lds_first, .lds_info {
+        padding-left: 0;
+    }
+    .lds_speed-picture {
+        left: 4%;
+    }
+    .lds_speed-content, .lds_speed-title {
+        margin-left: 45.9%;
+    }
+    .lds_result, .lds_result:first-child {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        min-width: 345px;
+        box-shadow: 0px 15px 15px rgba(39, 112, 250, 0.2);
+    }
+}
+
+@media (max-width: 1070px) {
+    .lds_first-picture, .lds_speed-picture {
+        position: relative;
+        display: block;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+    .lds_speed-picture {
+        margin-top: 8%;
+    }
+    .lds_first-title, .lds_first-content, .lds_speed-title, .lds_speed-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .lds_first-prefix {
+        text-align: center;
+    }
+    .lds_first:after {
+        background: #0065FF;
+    }
+    .lds_first, .lds_audit, .lds_info, .lds_speed-title {
+        padding-top: 80px;
+    }
+    .lds_audit {
+        padding-bottom: 50px;
+    }
+    .lds_speed, .lds_info {
+        padding-bottom: 100px;
+    }
+    .lds_first-title {
+        padding-top: 26px;
+    }
+    .lds_first-content {
+        padding-bottom: 77px;
+    }
+    .lds_audit-content {
+        padding-top: 10px;
+    }
+    .lds_audit-segment {
+        padding-top: 20px;
+    }
+    .lds_audit-results {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 920px) {
+    .lds_info {
+        background-image: none;
+    }
+    .lds_audit-title--first, .lds_audit-content {
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 860px) {
+    .lds_first-title, .lds_first-title--bold {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .lds_speed-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .lds_audit-title {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .lds_audit-segment {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 790px) {
+    .lds_audit-title--first, .lds_audit-content {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .lds_first-image, .lds_speed-image {
+        max-width: 80%;
+        height: auto;
+    }
+    .lds_audit-title {
+        font-size: 28px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lds_first-title, .lds_first-title--bold {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .lds_speed-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .lds_speed-content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .lds_audit-title {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .lds_first, .lds_audit, .lds_info, .lds_speed-title {
+        padding-top: 60px;
+    }
+    .lds_first-content, .lds_audit, .lds_info, .lds_speed {
+        padding-bottom: 60px;
+    }
+    .lds_speed-link {
+        margin-top: 20px;
+    }
+    .lds_audit-title--second {
+        margin-top: 120px;
+        line-height: 26px;
+    }
+    .lds_result-stats {
+        line-height: 26px;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .lds_result-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .lds_result {
+        padding-bottom: 65px;
+    }
+    .lds_audit:after {
+        height: 200px;
+    }
+    .lds_info-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .lds_info-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 390px) {
+    .lds_result, .lds_result:first-child {
+        min-width: 0;
+        width: auto;
+    }
+}

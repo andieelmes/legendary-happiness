@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Omnisan_main_1280" transform="translate(-841.000000, -727.000000)" fill="#FFFFFF">
+            <g id="Group-10" transform="translate(424.000000, 713.000000)">
+                <polygon id="Star" points="429 32 421.946577 35.7082039 423.293661 27.854102 417.587322 22.2917961 425.473288 21.145898 429 14 432.526712 21.145898 440.412678 22.2917961 434.706339 27.854102 436.053423 35.7082039"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

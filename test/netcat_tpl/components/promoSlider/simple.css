@@ -1,0 +1,16 @@
+.tpl-component-promo-slider.simple .slider {
+  margin-top: 0px;
+  margin-bottom: 20px; }
+  .tpl-component-promo-slider.simple .slider-item {
+    height: 100%; }
+  .tpl-component-promo-slider.simple .slider-content {
+    background-color: var(--color-bg-7);
+    width: 47%;
+    min-width: 450px; }
+  .tpl-component-promo-slider.simple .slider-header {
+    font-size: 25px;
+    line-height: 30px; }
+  .tpl-component-promo-slider.simple .slider-postfix {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 33px; }

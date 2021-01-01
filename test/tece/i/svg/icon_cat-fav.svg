@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 23 30" style="enable-background:new 0 0 23 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D61F2C;}
+	.st1{fill:#F8F8F8;}
+	.st2{fill:none;stroke:#E1E3E8;}
+</style>
+<title>Combined Shape</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Карточка-товара" transform="translate(-1277.000000, -655.000000)">
+		<g id="Кнопка-в-избранное-" transform="translate(1052.000000, 655.000000)">
+			<g id="Избранное" transform="translate(225.000000, 0.000000)">
+				<polygon class="st0" points="0,0 0,18.3 0,30 11.7,19.7 23.3,30 23.3,18.3 23.3,0 				"/>
+				<path id="_x2B_" class="st1" d="M10.4,8.9V5.3c0-0.5,0.3-0.7,0.8-0.7c0.6,0,0.9,0.2,0.9,0.7v3.6h3.5c0.5,0,0.7,0.3,0.7,0.9
+					c0,0.6-0.2,0.8-0.7,0.8h-3.5v3.6c0,0.5-0.3,0.7-0.9,0.7c-0.6,0-0.8-0.2-0.8-0.7v-3.6H6.9c-0.5,0-0.7-0.3-0.7-0.8
+					c0-0.6,0.2-0.9,0.7-0.9H10.4z"/>
+			</g>
+		</g>
+		<path id="Rectangle-26_1_" class="st2" d="M1348.5,1025.5c0,1.1-0.9,2-2,2h-325c-1.1,0-2-0.9-2-2v-562c0-1.1,0.9-2,2-2h325
+			c1.1,0,2,0.9,2,2"/>
+	</g>
+</g>
+</svg>

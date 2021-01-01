@@ -1,0 +1,13 @@
+.tpl-component-product-list.filters {
+  background-color: initial;
+  margin-bottom: 51px; }
+  .tpl-component-product-list.filters .product-list {
+    background-color: var(--color-bg-7); }
+    .tpl-component-product-list.filters .product-list-top {
+      border-bottom: 0;
+      padding-bottom: 12px; }
+  .tpl-component-product-list.filters .product-buttons {
+    background-color: var(--color-bg-7);
+    padding: 20px 0 43px; }
+  .tpl-component-product-list.filters .product-more {
+    margin: 0 auto; }

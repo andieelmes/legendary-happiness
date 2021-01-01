@@ -1,0 +1,18 @@
+@media (max-width: 740px) {
+  .tpl-component-review-popup .popup-content-wrap {
+    width: 320px; }
+  .tpl-component-review-popup .popup-content-inner--big {
+    padding: 28px 30px 43px; }
+  .tpl-component-review-popup .popup-content-header {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 5px; }
+  .tpl-component-review-popup .popup-content-inputs {
+    padding-top: 21px; }
+  .tpl-component-review-popup .popup-content-stars {
+    padding-bottom: 4px; }
+  .tpl-component-review-popup .popup-content-label {
+    margin-bottom: 10px; }
+  .tpl-component-review-popup .button--form {
+    padding: 10px 50px;
+    font-size: 11px; } }

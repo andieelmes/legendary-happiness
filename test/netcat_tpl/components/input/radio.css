@@ -1,0 +1,32 @@
+.radio-item {
+  width: 100%;
+  display: block; }
+
+.radio-fake {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid var(--color-border-22);
+  height: 23px;
+  width: 23px;
+  position: relative;
+  margin-left: -6px; }
+  .radio-fake:after {
+    display: none;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+    content: "";
+    border-radius: 50%;
+    background-color: var(--color-bg-10); }
+
+.radio-input {
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+  opacity: 0; }
+  .radio-input:checked + .radio-fake:after {
+    display: block; }

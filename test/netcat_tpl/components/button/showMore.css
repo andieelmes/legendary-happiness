@@ -1,0 +1,17 @@
+.button--showMore {
+  font-size: 12px;
+  position: relative;
+  padding-left: 56px;
+  display: block; }
+  .button--showMore:before {
+    position: absolute;
+    left: -80px;
+    top: -3px;
+    transform: rotate(-80deg);
+    content: "\e098";
+    font-size: 25px;
+    color: var(--color-font-5);
+    font-family: var(--icons-simple);
+    font-weight: 400; }
+  .button--showMore:hover:before, .button--showMore:active:before {
+    color: var(--color-font-8); }

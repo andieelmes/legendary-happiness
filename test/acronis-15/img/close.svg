@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>+</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-menu--•-1920" transform="translate(-170.000000, -443.000000)" fill="#FFFFFF">
+            <g id="Overlay" transform="translate(146.000000, 69.000000)">
+                <g id="Main-Menu-Close" transform="translate(0.000000, 369.000000)">
+                    <polygon id="+" transform="translate(32.000000, 12.460000) rotate(-45.000000) translate(-32.000000, -12.460000) " points="33.36 3.84 33.36 11 40.6 11 40.6 13.88 33.36 13.88 33.36 21.08 30.64 21.08 30.64 13.88 23.4 13.88 23.4 11 30.64 11 30.64 3.84"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

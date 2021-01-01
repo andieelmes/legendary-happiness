@@ -1,0 +1,18 @@
+.button--transparent {
+  background-color: transparent;
+  border: none;
+  color: var(--color-font-5);
+  padding-left: 0; }
+  .button--transparent:before {
+    color: var(--color-font-5);
+    right: 27px; }
+  .button--transparent:hover {
+    background-color: transparent;
+    color: var(--color-font-9);
+    transition: all 0.2s; }
+    .button--transparent:hover:before {
+      color: var(--color-font-9); }
+
+@media (max-width: 400px) {
+  .button--transparent:before {
+    right: 20px; } }

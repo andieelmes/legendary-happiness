@@ -1,0 +1,112 @@
+.tpl-component-reviews-slider {
+  background-color: var(--color-bg-4);
+  overflow: hidden;
+  margin-top: 40px;
+  position: relative; }
+  .tpl-component-reviews-slider .reviews-slider-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.3;
+    background-image: url(../img/sliders/slider4.png);
+    z-index: 10;
+    background-size: cover; }
+  .tpl-component-reviews-slider .block-content {
+    position: relative;
+    z-index: 20; }
+  .tpl-component-reviews-slider .reviews-slider-inner {
+    text-align: center;
+    position: relative;
+    padding: 80px 0 38px; }
+  .tpl-component-reviews-slider .reviews-slider-header {
+    color: var(--color-font-6); }
+  .tpl-component-reviews-slider .slider {
+    max-width: 980px;
+    padding: 100px 20px 34px;
+    text-align: center;
+    margin: 0 auto; }
+    .tpl-component-reviews-slider .slider-item {
+      max-height: 250px; }
+      .tpl-component-reviews-slider .slider-item.blur-review .slider-text:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 30px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to bottom, var(--color-bg-18), var(--color-bg-17)); }
+    .tpl-component-reviews-slider .slider-avatar {
+      border-radius: 50%;
+      width: 170px;
+      height: 170px;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: top;
+      background-size: cover; }
+    .tpl-component-reviews-slider .slider-content {
+      width: 71%;
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 20px; }
+    .tpl-component-reviews-slider .slider-text {
+      font-family: var(--font-4);
+      color: var(--color-font-6);
+      font-size: 18px;
+      line-height: 32px;
+      text-align: left;
+      max-height: 256px;
+      overflow: hidden;
+      position: relative;
+      -webkit-line-clamp: 8;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box; }
+      .tpl-component-reviews-slider .slider-text p {
+        padding: 4px 0; }
+    .tpl-component-reviews-slider .slider-desc {
+      text-align: left;
+      font-family: var(--font-2);
+      color: var(--color-font-6);
+      font-size: 12px;
+      line-height: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 19px 0; }
+    .tpl-component-reviews-slider .slider .fotorama__nav-wrap {
+      margin-top: 23px; }
+    .tpl-component-reviews-slider .slider div.fotorama__nav.fotorama__nav--dots {
+      text-align: left;
+      padding-left: 243px; }
+    .tpl-component-reviews-slider .slider .fotorama__nav--dots .fotorama__nav__frame {
+      width: 30px;
+      height: 30px; }
+    .tpl-component-reviews-slider .slider .fotorama__dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--color-bg-11);
+      border: 0;
+      border-radius: 50%; }
+    .tpl-component-reviews-slider .slider .fotorama__nav__frame.fotorama__active .fotorama__dot {
+      width: 6px;
+      height: 6px;
+      position: relative;
+      top: 12px;
+      background-color: var(--color-bg-12);
+      border-radius: 50%;
+      border-width: 0; }
+      .tpl-component-reviews-slider .slider .fotorama__nav__frame.fotorama__active .fotorama__dot:after {
+        content: "";
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        border-radius: 50%;
+        border: 1px solid var(--color-bg-11); }

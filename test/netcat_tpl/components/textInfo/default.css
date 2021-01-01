@@ -1,0 +1,53 @@
+.tpl-component-text-info {
+  background-color: var(--color-bg-9); }
+  .tpl-component-text-info .inner-content {
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+  .tpl-component-text-info .text-info-content {
+    width: 61%;
+    padding: 94px 0 20px; }
+  .tpl-component-text-info .text-info-header {
+    max-width: 580px; }
+  .tpl-component-text-info .text-info-text {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: var(--font-4);
+    color: var(--color-font-2);
+    padding: 99px 0 40px; }
+    .tpl-component-text-info .text-info-text p {
+      padding: 14px 0; }
+  .tpl-component-text-info .text-info-items {
+    padding: 60px 18px 52px; }
+  .tpl-component-text-info .text-info-item {
+    padding: 42px 0; }
+  .tpl-component-text-info .text-info-item--delivery .text-info-icon:before {
+    content: "\e635"; }
+  .tpl-component-text-info .text-info-item--moneyback .text-info-icon:before {
+    content: "\e64f";
+    font-size: 40px; }
+  .tpl-component-text-info .text-info-item--safety .text-info-icon:before {
+    content: "\e628";
+    font-size: 40px; }
+  .tpl-component-text-info .text-info-icon {
+    font-family: var(--icons-ux);
+    font-size: 30px;
+    color: var(--color-font-5);
+    height: 40px;
+    line-height: 40px;
+    width: 47px;
+    margin: 0 auto; }
+  .tpl-component-text-info .text-info-items {
+    text-align: center; }
+  .tpl-component-text-info .text-info-title {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--font-1);
+    color: var(--color-font-2);
+    font-weight: 700;
+    padding-top: 54px; }
+  .tpl-component-text-info .text-info-desc {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--font-4);
+    color: var(--color-font-1);
+    padding-top: 4px; }

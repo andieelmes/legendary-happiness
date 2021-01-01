@@ -1,0 +1,47 @@
+User-agent: *
+Disallow: /install/
+Disallow: /netcat/
+Disallow: *add_reply*
+Disallow: *add_topic*
+Disallow: /about/ncblog/?uid=*
+Disallow: /ordersite/tender/?*
+Disallow: /support/knowledge/?action=index&section=*
+Disallow: /support/knowledge/?action=index&tags=*
+Disallow: /products/CatStore/order-solution/
+Disallow: /support/forum/srch.html
+# Auto-generated section. Do not change. Не изменяйте содержимое этого раздела.
+Allow: /registration/password/ #570#
+Allow: /partners/orders/ #493#
+Allow: /partners/met/ #494#
+Allow: /partners/contacts/ #496#
+Allow: /partners/community/ #589#
+Allow: /partners/admin/ #492#
+Disallow: /forclients/ #501#
+Disallow: /partners/ #491#
+Disallow: /products-old/editions/personal/ #566#
+Disallow: /products-old/editions/sblite/ #663#
+Disallow: /products-old/editions/seo/ #423#
+Disallow: /404/ #379#
+Disallow: /adm/ #473#
+Disallow: /todo/ #548#
+Disallow: /oldsearch/ #565#
+Disallow: /sqladmin/ #627#
+Disallow: /download/ #634#
+Disallow: /filamanager1/ #640#
+Disallow: /confirm/ #662#
+Disallow: /forSEO/ #679#
+Disallow: /search/ #683#
+Disallow: /paged/ #686#
+Disallow: /newsearch-copy/ #720#
+Disallow: /support/ncforum/ #644#
+Disallow: /adm/checkdomain/ #751#
+Disallow: /helpdesk/ #1369#
+Disallow: /products/performance/ #1676#
+# End of auto-generated section.
+Allow: /nimages/css/
+Allow: /netcat_template/template/169/assets2/css/
+Allow: /netcat_template/template/169/assets2/js/
+Allow: /netcat_template/template/179/assets/landing_stuff/
+Allow: /netcat_template/template/179/assets/css/
+Host: netcat.ru
+Sitemap: http://netcat.ru/sitemap.xml

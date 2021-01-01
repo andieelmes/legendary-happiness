@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="76px" viewBox="0 0 80 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>0027_L_In-cloud_versions</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.7942708%" y1="0%" x2="0%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.1896973%" y1="0%" x2="62.3931885%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7EADF0" offset="0%"></stop>
+            <stop stop-color="#76A6EC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="63.3682251%" y1="28.5807292%" x2="0%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="61.4562988%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#90BCFA" offset="0%"></stop>
+            <stop stop-color="#79A9ED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="140.929458%" y1="150.136719%" x2="-19.3774417%" y2="-42.5097656%" id="linearGradient-6">
+            <stop stop-color="#295296" offset="0%"></stop>
+            <stop stop-color="#3E78D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="100%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#649CF5" offset="0%"></stop>
+            <stop stop-color="#4A80DF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#6598EF" offset="0%"></stop>
+            <stop stop-color="#5C91E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AB-Product-Page-#3" transform="translate(-463.000000, -788.000000)">
+            <g id="0027_L_In-cloud_versions" transform="translate(456.000000, 779.000000)">
+                <path d="M26.1642512,54.9993048 C26.2051275,54.9997679 26.246056,55 26.2870356,55 L75.7129644,55 C81.9471704,55 87,49.628 87,43 C87,36.372 81.9471704,31 75.7129644,31 L70.9786508,31 C70.4550754,18.7615245 60.367331,9 48,9 C40.812687,9 34.3952792,12.296847 30.1775803,17.4607374 C28.8333452,17.15914 27.4352576,17 26,17 C15.5079286,17 7,25.5065714 7,36 C7,46.4934286 15.5079286,55 26,55 C26.0548049,55 26.1095556,54.999768 26.1642512,54.9993048 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.45"></path>
+                <polygon id="Combined-Shape-Copy" fill="url(#linearGradient-2)" opacity="0.35" points="62 43 42 43 42 85 74 85 74 55"></polygon>
+                <polygon id="Combined-Shape" fill="url(#linearGradient-3)" opacity="0.45" points="74 55 62 43 42 43 42 55"></polygon>
+                <polygon id="Combined-Shape-Copy-2" fill="url(#linearGradient-4)" opacity="0.35" points="42 26 22 26 22 68 54 68 54 38"></polygon>
+                <path d="M22,54.578122 C23.289671,54.8545132 24.6278682,55 26,55 C26.0548049,55 26.1095556,54.999768 26.1642512,54.9993048 C26.2051275,54.9997679 26.246056,55 26.2870356,55 L54,55 L54,38 L42,26 L22,26 L22,54.578122 Z" id="Combined-Shape" fill="url(#linearGradient-5)"></path>
+                <polygon id="Rectangle-Copy" fill="url(#linearGradient-6)" transform="translate(68.000000, 49.000000) scale(-1, -1) translate(-68.000000, -49.000000) " points="62 43 74 43 74 55"></polygon>
+                <polygon id="Rectangle-Copy-2" fill="url(#linearGradient-7)" transform="translate(48.000000, 32.000000) scale(-1, -1) translate(-48.000000, -32.000000) " points="42 26 54 26 54 38"></polygon>
+                <rect id="Rectangle-11" fill="url(#linearGradient-8)" x="42" y="43" width="12" height="12"></rect>
+                <rect id="Rectangle" x="0" y="0" width="96" height="96"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

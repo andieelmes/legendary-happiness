@@ -1,0 +1,13 @@
+.link--primary {
+  transition: 0; }
+  .link--primary:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s; }
+  .link--primary:active {
+    color: var(--color-font-5);
+    transition: opacity 0.2s; }
+  .link--primary .active {
+    cursor: auto; }
+    .link--primary .active:hover, .link--primary .active:active {
+      color: var(--color-font-5);
+      transition: 0; }

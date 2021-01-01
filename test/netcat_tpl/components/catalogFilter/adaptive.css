@@ -1,0 +1,171 @@
+@media (max-width: 1000px) {
+  .tpl-component-catalog-filter {
+    flex-grow: 1;
+    border-top: 0;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0; }
+    .tpl-component-catalog-filter:before {
+      position: absolute;
+      left: 5%;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 90%;
+      width: 2px;
+      border-left: 1px solid var(--color-bg-19);
+      content: ""; }
+    .tpl-component-catalog-filter .catalog-filter-content {
+      padding-left: 10%;
+      display: flex;
+      flex-direction: column;
+      max-height: 400px; }
+    .tpl-component-catalog-filter .catalog-filter-buttons {
+      text-align: center; }
+    .tpl-component-catalog-filter .catalog-filter-title:before {
+      display: none; }
+    .tpl-component-catalog-filter .catalog-filter-items--price {
+      order: 2; }
+    .tpl-component-catalog-filter .catalog-filter-items {
+      position: relative;
+      width: 100%; }
+      .tpl-component-catalog-filter .catalog-filter-items .checkbox {
+        min-width: 208px; }
+        .tpl-component-catalog-filter .catalog-filter-items .checkbox:first-child {
+          padding-top: 0px; }
+        .tpl-component-catalog-filter .catalog-filter-items .checkbox-label {
+          display: none; }
+        .tpl-component-catalog-filter .catalog-filter-items .checkbox-input:checked + .checkbox-label {
+          display: block; }
+        .tpl-component-catalog-filter .catalog-filter-items .checkbox.showNumber {
+          display: block; }
+      .tpl-component-catalog-filter .catalog-filter-items.active-mobile .catalog-filter-options {
+        display: block;
+        width: calc(100% - 20px);
+        background-color: #F6F6F6;
+        z-index: 20;
+        top: 51px;
+        left: 24px;
+        padding: 20px 15px 0;
+        padding-bottom: 20px; }
+      .tpl-component-catalog-filter .catalog-filter-items.active-mobile .checkbox.showNumber {
+        display: none; }
+      .tpl-component-catalog-filter .catalog-filter-items.active-mobile .checkbox:first-child {
+        padding-top: 2px; }
+      .tpl-component-catalog-filter .catalog-filter-items.active-mobile .checkbox-label {
+        display: block; }
+      .tpl-component-catalog-filter .catalog-filter-items.active-mobile .checkbox:last-child {
+        margin-bottom: 20px; }
+      .tpl-component-catalog-filter .catalog-filter-items .catalog-filter-options {
+        background-color: transparent;
+        width: auto;
+        top: 20px;
+        right: 20px;
+        left: auto;
+        padding: 0;
+        max-height: 33px;
+        overflow: hidden; }
+      .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .catalog-filter-options {
+        background-color: transparent;
+        width: auto;
+        top: 20px;
+        right: 20px;
+        left: auto;
+        padding: 0;
+        max-height: 33px;
+        overflow: hidden; }
+      .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .catalog-filter-title {
+        color: var(--color-font-1); }
+      .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .checkbox {
+        padding: 0; }
+        .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .checkbox:first-child {
+          padding-top: 0px; }
+        .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .checkbox-label {
+          display: none; }
+        .tpl-component-catalog-filter .catalog-filter-items.hidden-mobile .checkbox-input:checked + .checkbox-label {
+          display: block; }
+    .tpl-component-catalog-filter .catalog-filter-options {
+      position: absolute;
+      right: 20px;
+      top: 0;
+      display: block; } }
+
+@media (max-width: 750px) {
+  .tpl-component-catalog-filter {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 40;
+    box-shadow: 0px 20px 20px var(--color-bs-2); }
+    .tpl-component-catalog-filter:before {
+      display: none; }
+    .tpl-component-catalog-filter .catalog-filter-items.active-mobile .catalog-filter-options {
+      width: calc(100% - 40px);
+      z-index: 200;
+      padding-bottom: 20px;
+      max-height: 300px;
+      overflow-y: scroll; }
+    .tpl-component-catalog-filter .catalog-filter-items.active-mobile .catalog-filter-close {
+      display: block; }
+    .tpl-component-catalog-filter .catalog-filter-items .checkbox {
+      min-width: 0; }
+      .tpl-component-catalog-filter .catalog-filter-items .checkbox-label {
+        padding-right: 30px; }
+    .tpl-component-catalog-filter .catalog-filter-header {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 25px;
+      right: 20px;
+      top: -50px;
+      position: absolute;
+      color: var(--color-font-5); }
+      .tpl-component-catalog-filter .catalog-filter-header:before {
+        transform: rotate(-180deg);
+        color: var(--color-font-5);
+        transition: transform 0.2s; }
+    .tpl-component-catalog-filter .catalog-filter-content {
+      padding-left: 3%; }
+    .tpl-component-catalog-filter.hidden {
+      top: 20px;
+      left: auto;
+      right: 25px;
+      width: auto;
+      display: inline-block;
+      vertical-align: top;
+      flex-grow: 0;
+      box-shadow: none; }
+      .tpl-component-catalog-filter.hidden .catalog-filter-items {
+        display: none; }
+      .tpl-component-catalog-filter.hidden .catalog-filter-buttons {
+        display: none; }
+      .tpl-component-catalog-filter.hidden .catalog-filter-header {
+        top: 0;
+        right: 0;
+        color: var(--color-font-1); }
+        .tpl-component-catalog-filter.hidden .catalog-filter-header:before {
+          color: var(--color-font-1);
+          transform: none; } }
+
+@media (max-width: 600px) {
+  .catalog-filter-content {
+    max-height: 100%; }
+  .tpl-component-catalog-filter .catalog-filter-items .checkbox:last-child {
+    margin-bottom: 7px; }
+  .tpl-component-catalog-filter .catalog-filter-inputs {
+    padding: 15px 0 14px; } }
+
+@media (max-width: 400px) {
+  .tpl-component-catalog-filter {
+    top: 50px; }
+    .tpl-component-catalog-filter .catalog-filter-header {
+      font-size: 11px; }
+    .tpl-component-catalog-filter .catalog-filter-title {
+      font-size: 11px; }
+    .tpl-component-catalog-filter .catalog-filter-items .checkbox-label {
+      font-size: 12px; }
+    .tpl-component-catalog-filter .catalog-filter-reset {
+      margin: 18px 0 20px; }
+    .tpl-component-catalog-filter.hidden {
+      top: 0; } }

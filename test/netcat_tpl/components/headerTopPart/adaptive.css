@@ -1,0 +1,127 @@
+@media (max-width: 1000px) {
+  .tpl-component-header-top-part .site-nav {
+    display: none; } }
+
+@media (min-width: 1001px) {
+  .tpl-component-header-top-part .menu {
+    display: none; } }
+
+.tpl-component-header-top-part[max-width~="1000px"] {
+  min-height: 50px;
+  background-color: var(--color-bg-8);
+  border-bottom: 0; }
+  .tpl-component-header-top-part[max-width~="1000px"] .search-block {
+    order: 2;
+    padding: 10px 5px 0;
+    position: static; }
+    .tpl-component-header-top-part[max-width~="1000px"] .search-block.active .search-block-form {
+      position: absolute;
+      width: 100vw;
+      top: 100%;
+      right: 0;
+      margin: 0 auto;
+      z-index: 60;
+      box-shadow: 0 10px 20px var(--color-bs-2); }
+      .tpl-component-header-top-part[max-width~="1000px"] .search-block.active .search-block-form .search-block-button {
+        background-color: var(--color-bg-7);
+        border: 0; }
+        .tpl-component-header-top-part[max-width~="1000px"] .search-block.active .search-block-form .search-block-button:before {
+          top: 8px; }
+    .tpl-component-header-top-part[max-width~="1000px"] .search-block-input {
+      height: 50px;
+      border-radius: 0;
+      flex-grow: 1;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 0; }
+  .tpl-component-header-top-part[max-width~="1000px"] .logo {
+    order: 3;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 5px 0; }
+  .tpl-component-header-top-part[max-width~="1000px"] .cart {
+    order: 4;
+    padding: 10px 5px 0; }
+  .tpl-component-header-top-part[max-width~="1000px"] .profile {
+    order: 5;
+    padding: 10px 5px 0; }
+
+.tpl-component-header-top-part[max-width~="500px"] .search-block {
+  padding: 10px 0px 0;
+  margin-right: 12px;
+  margin-left: 3px; }
+  .tpl-component-header-top-part[max-width~="500px"] .search-block.active .search-block-form .search-block-button {
+    height: 40px;
+    width: 40px; }
+    .tpl-component-header-top-part[max-width~="500px"] .search-block.active .search-block-form .search-block-button:before {
+      top: 3px; }
+  .tpl-component-header-top-part[max-width~="500px"] .search-block-input {
+    height: 40px; }
+  .tpl-component-header-top-part[max-width~="500px"] .search-block-button {
+    width: 50px;
+    height: 40px; }
+    .tpl-component-header-top-part[max-width~="500px"] .search-block-button:before {
+      font-size: 13px; }
+
+.tpl-component-header-top-part[max-width~="500px"] .logo {
+  padding: 13px 5px 0; }
+  .tpl-component-header-top-part[max-width~="500px"] .logo-image {
+    max-width: 92px;
+    display: block;
+    margin: 0 auto; }
+
+.tpl-component-header-top-part[max-width~="500px"] .cart {
+  padding: 7px 5px 0;
+  margin-left: 0; }
+  .tpl-component-header-top-part[max-width~="500px"] .cart-icon {
+    width: 50px;
+    height: 40px; }
+    .tpl-component-header-top-part[max-width~="500px"] .cart-icon:before {
+      font-size: 13px; }
+  .tpl-component-header-top-part[max-width~="500px"] .cart-counter {
+    font-size: 9px;
+    width: 17px;
+    height: 17px;
+    line-height: 11px;
+    right: 6px;
+    top: 7px; }
+
+.tpl-component-header-top-part[max-width~="500px"] .profile {
+  margin-right: -15px;
+  margin-left: 0;
+  padding: 8px 0px 0 5px; }
+  .tpl-component-header-top-part[max-width~="500px"] .profile-icon {
+    width: 40px;
+    height: 40px; }
+    .tpl-component-header-top-part[max-width~="500px"] .profile-icon:before {
+      font-size: 13px; }
+
+.tpl-component-header-top-part[max-width~="500px"] .menu {
+  width: 45px;
+  height: 50px;
+  padding: 16px 10px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-icon {
+    height: 30px;
+    width: 30px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-line {
+    width: 15px; }
+    .tpl-component-header-top-part[max-width~="500px"] .menu-line--1 {
+      top: 5px; }
+    .tpl-component-header-top-part[max-width~="500px"] .menu-line--2 {
+      top: 10px; }
+    .tpl-component-header-top-part[max-width~="500px"] .menu-line--3 {
+      top: 15px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-content {
+    width: 192px;
+    padding: 16px 33px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-nav-link {
+    font-size: 8px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 0 7.5px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-categories {
+    padding-top: 26px; }
+  .tpl-component-header-top-part[max-width~="500px"] .menu-categories-link {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 8px 0 8.5px; }

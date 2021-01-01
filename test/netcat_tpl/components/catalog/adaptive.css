@@ -1,0 +1,17 @@
+@media (max-width: 1000px) {
+  .catalog-options {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-7);
+    padding: 20px 3%;
+    margin: 0 -20px 30px; } }
+
+@media (max-width: 750px) {
+  .catalog-options {
+    display: flex;
+    flex-direction: column;
+    position: relative; } }
+
+@media (max-width: 400px) {
+  .catalog-options {
+    padding: 0px 3% 0; } }

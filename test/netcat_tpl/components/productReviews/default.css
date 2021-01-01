@@ -1,0 +1,36 @@
+.tpl-component-product-reviews {
+  padding-top: 1px;
+  margin-top: -1px; }
+  .tpl-component-product-reviews .product-tab {
+    display: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-2);
+    color: var(--color-font-5);
+    padding: 10px 0px;
+    margin: 0 0;
+    letter-spacing: 0.7px;
+    transition: all 0.2s; }
+  .tpl-component-product-reviews .product-reviews-inside {
+    display: none;
+    padding: 25px 0 35px;
+    margin-bottom: 60px; }
+  .tpl-component-product-reviews.active .product-reviews-inside {
+    display: block; }
+  .tpl-component-product-reviews .product-reviews {
+    padding-top: 72px; }
+    .tpl-component-product-reviews .product-reviews-top {
+      justify-content: space-between;
+      padding-bottom: 13px; }
+    .tpl-component-product-reviews .product-reviews-controls {
+      padding-top: 10px;
+      margin-right: 13px; }
+    .tpl-component-product-reviews .product-reviews-bottom {
+      padding-top: 8px; }
+    .tpl-component-product-reviews .product-reviews-buttonMore {
+      padding-left: 50px;
+      margin-top: 57px; }
+      .tpl-component-product-reviews .product-reviews-buttonMore:before {
+        left: -145px;
+        top: 15px; }

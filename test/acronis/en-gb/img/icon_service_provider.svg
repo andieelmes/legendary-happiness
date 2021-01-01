@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="40px" viewBox="0 0 38 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>0010_L_secure_data_centers@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-19.3774414%" y1="120.422363%" x2="120.336914%" y2="-19.6240234%" id="linearGradient-3">
+            <stop stop-color="#295296" offset="0%"></stop>
+            <stop stop-color="#3E78D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="135.636393%" y1="-32.5561523%" x2="-47.5708008%" y2="130.480957%" id="linearGradient-4">
+            <stop stop-color="#6FA2EC" offset="0%"></stop>
+            <stop stop-color="#5C90DF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#8CB6E9" offset="0%"></stop>
+            <stop stop-color="#B6D5FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#5A8FDF" offset="0%"></stop>
+            <stop stop-color="#7CADF4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Split-page-Business-products" transform="translate(-77.000000, -2961.000000)">
+            <g id="0010_L_secure_data_centers" transform="translate(72.000000, 2958.000000)">
+                <path d="M5,18 L43,18 L43,29 L5,29 L5,18 Z M10.5,25 C11.3284271,25 12,24.3284271 12,23.5 C12,22.6715729 11.3284271,22 10.5,22 C9.67157288,22 9,22.6715729 9,23.5 C9,24.3284271 9.67157288,25 10.5,25 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.45"></path>
+                <rect id="Rectangle-8-Copy" fill="url(#linearGradient-2)" opacity="0.45" x="5" y="32" width="38" height="11"></rect>
+                <polygon id="Combined-Shape" fill="url(#linearGradient-3)" points="43 29 43 32 5 32 5 29"></polygon>
+                <circle id="Oval-8-Copy-13" fill="url(#linearGradient-4)" cx="10.5" cy="37.5" r="1.5"></circle>
+                <circle id="Oval-8-Copy-12" fill="url(#linearGradient-4)" cx="16.5" cy="23.5" r="1.5"></circle>
+                <circle id="Oval-8-Copy-14" fill="url(#linearGradient-3)" cx="16.5" cy="37.5" r="1.5"></circle>
+                <path d="M25,11.5 L25,8.75 C25,5.57436269 27.5743627,3 30.75,3 C33.9256373,3 36.5,5.57436269 36.5,8.75 L36.5,11.5 L38.5,11.5 L38.5,18 L23,18 L23,11.5 L25,11.5 Z M33.5,8.75 C33.5,7.23121694 32.2687831,6 30.75,6 C29.2312169,6 28,7.23121694 28,8.75 L28,11.5 L33.5,11.5 L33.5,8.75 Z" id="Combined-Shape" fill="url(#linearGradient-5)"></path>
+                <polygon id="Combined-Shape" fill="url(#linearGradient-6)" points="38.5 18 38.5 24.5 23 24.5 23 18"></polygon>
+                <path d="M30,17.3315922 C29.4087632,17.0507262 29,16.448099 29,15.75 C29,14.7835017 29.7835017,14 30.75,14 C31.7164983,14 32.5,14.7835017 32.5,15.75 C32.5,16.448099 32.0912368,17.0507262 31.5,17.3315922 L31.5,20.5 L30,20.5 L30,17.3315922 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

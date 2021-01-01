@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="42px" viewBox="0 0 26 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_solution</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-26.9794171%" y1="113.895498%" x2="100%" y2="6.8877551%" id="linearGradient-1">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="9.46777344%" y1="100%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#76ADFD" offset="0%"></stop>
+            <stop stop-color="#5A92EB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="140.929458%" y1="135.323595%" x2="-19.3774417%" y2="-28.824889%" id="linearGradient-3">
+            <stop stop-color="#295296" offset="0%"></stop>
+            <stop stop-color="#3E78D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="63.2202148%" y1="37.5640869%" x2="0%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-193.836167%" y1="-22.6591222%" x2="100%" y2="194.562845%" id="linearGradient-5">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-200.119851%" y1="-190.034624%" x2="254.474432%" y2="143.159624%" id="linearGradient-6">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-89.2089844%" y1="-210.183377%" x2="466.40625%" y2="199.267578%" id="linearGradient-7">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-15.1367188%" y1="-426.667132%" x2="700.258092%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-457.817925%" y1="-311.496311%" x2="100%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_solution" transform="translate(-11.000000, -1.000000)">
+            <polygon id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.45" points="19 23 37 23 37 9 29 1 11 1 11 29 19 29"></polygon>
+            <polygon id="Combined-Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" points="21 23 21 29 27 29 27 23"></polygon>
+            <polygon id="Combined-Shape" fill="url(#linearGradient-3)" fill-rule="nonzero" points="27 23 21 23 21 18 18 18 24 10 30 18 27 18"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.5" style="mix-blend-mode: multiply;" points="29 1 37 9 29 9"></polygon>
+            <rect id="Rectangle-24-Copy" fill="url(#linearGradient-5)" fill-rule="nonzero" opacity="0.5" x="29" y="26" width="8" height="8"></rect>
+            <rect id="Rectangle-25" fill="url(#linearGradient-6)" fill-rule="nonzero" opacity="0.5" x="23" y="34" width="6" height="6"></rect>
+            <rect id="Rectangle-26" fill="url(#linearGradient-7)" fill-rule="nonzero" opacity="0.5" x="15" y="32" width="5" height="5"></rect>
+            <rect id="Rectangle-27" fill="url(#linearGradient-8)" fill-rule="nonzero" opacity="0.5" x="11" y="39" width="4" height="4"></rect>
+            <rect id="Rectangle-27-Copy" fill="url(#linearGradient-9)" fill-rule="nonzero" opacity="0.5" x="32" y="37" width="5" height="5"></rect>
+            <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+        </g>
+    </g>
+</svg>

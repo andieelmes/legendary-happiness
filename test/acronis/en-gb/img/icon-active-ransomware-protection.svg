@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="80px" viewBox="0 0 78 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>0003_L_active_ransomware_protection</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="83.0759684%" y1="12.6581828%" x2="19.2560832%" y2="89.3783569%" id="linearGradient-1">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="61.7949695%" y1="0%" x2="-6.17854421%" y2="112.165179%" id="linearGradient-2">
+            <stop stop-color="#70B1FF" offset="0%"></stop>
+            <stop stop-color="#005CCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.04437%" y1="41.8851298%" x2="14.2166492%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#70B1FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#6093E1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="59.5706755%" y1="41.6257489%" x2="17.9438441%" y2="1.68565901%" id="linearGradient-4">
+            <stop stop-color="#70B1FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#4378D7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-19.3774414%" y1="120.422363%" x2="120.336914%" y2="-19.6240234%" id="linearGradient-5">
+            <stop stop-color="#295296" offset="0%"></stop>
+            <stop stop-color="#3E78D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATI-Product-page-#2" transform="translate(-466.000000, -1094.000000)">
+            <g id="0003_L_active_ransomware_protection" transform="translate(456.000000, 1088.000000)">
+                <path d="M65.5333742,36.0472729 C65.3602796,36.0162127 65.1820331,36 65,36 C63.3431458,36 62,37.3431458 62,39 C62,40.6568542 63.3431458,42 65,42 C66.4379588,42 67.6396248,40.98831 67.9320425,39.6378856 C70.5206204,44.1662753 72,49.4103738 72,55 C72,72.1208272 58.1208272,86 41,86 C23.8791728,86 10,72.1208272 10,55 C10,37.8791728 23.8791728,24 41,24 C50.9828131,24 59.8635209,28.718674 65.5333742,36.0472729 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.45"></path>
+                <path d="M65,6 L88,46 L42,46 L65,6 Z M62,19 L63.0058301,33 L66.9943656,33 L68,19 L62,19 Z M65,42 C66.6568542,42 68,40.6568542 68,39 C68,37.3431458 66.6568542,36 65,36 C63.3431458,36 62,37.3431458 62,39 C62,40.6568542 63.3431458,42 65,42 Z" id="Combined-Shape" fill="url(#linearGradient-2)" opacity="0.5"></path>
+                <path d="M19.0797,33.1000004 C6.9737,45.2060004 6.9737,64.8340004 19.0797,76.9410004 C31.1857,89.0470004 50.8137,89.0470004 62.9207,76.9410004 C68.9817,70.8790004 72.0067,62.9330004 71.9997,54.9890004 L40.9687,54.9890004 L19.0797,33.1000004 Z" id="Fill-3" fill="url(#linearGradient-3)"></path>
+                <path d="M25.4436,39.5 C16.8516,48.092 16.8516,62.021 25.4436,70.613 C34.0356,79.204 47.9646,79.204 56.5566,70.613 L25.4436,39.5 Z" id="Fill-1" fill="url(#linearGradient-4)"></path>
+                <circle id="Oval-8-Copy-11" fill="url(#linearGradient-5)" cx="26" cy="70" r="3"></circle>
+                <circle id="Oval-8-Copy-9" fill="url(#linearGradient-5)" cx="41" cy="55" r="6"></circle>
+                <rect id="Rectangle-19" x="0" y="0" width="96" height="96"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

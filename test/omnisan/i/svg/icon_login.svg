@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="83px" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Вход_omnisan" transform="translate(-669.000000, -161.000000)">
+            <g id="Group-3" transform="translate(504.000000, 104.000000)">
+                <g id="Group" transform="translate(84.000000, 0.000000)">
+                    <g id="Page-1" transform="translate(81.000000, 57.000000)">
+                        <rect id="Rectangle-5-Copy" fill="#5EC0AD" transform="translate(41.582264, 41.441125) rotate(45.000000) translate(-41.582264, -41.441125) " x="12.2789631" y="12.1378246" width="58.6066017" height="58.6066017"></rect>
+                        <path d="M51,32.5 C51,29.8761 49.936,27.5011 48.2184,25.7835 C46.4989,24.064 44.1239,23 41.5,23 C38.8761,23 36.5011,24.064 34.7816,25.7835 C33.064,27.5011 32,29.8761 32,32.5 C32,35.1239 33.064,37.4989 34.7816,39.2165 C36.5011,40.936 38.8761,42 41.5,42 C44.1239,42 46.4989,40.936 48.2184,39.2165 C49.936,37.4989 51,35.1239 51,32.5" id="Fill-1" fill="#FFFFFF"></path>
+                        <path d="M30,52 C30,54 34.3125,56 41.5,56 C48.2428333,56 53,54 53,52 C53,48 48.4881667,44 41.5,44 C34.3125,44 30,48 30,52" id="Fill-3" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

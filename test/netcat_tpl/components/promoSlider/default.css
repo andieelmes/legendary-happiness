@@ -1,0 +1,115 @@
+.tpl-component-promo-slider {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg-8); }
+  .tpl-component-promo-slider .slider {
+    margin: 37px auto 46px; }
+    .tpl-component-promo-slider .slider-item {
+      position: relative;
+      display: flex; }
+    .tpl-component-promo-slider .slider-image {
+      width: 57.5%;
+      background-size: cover;
+      background-position: top center;
+      background-color: var(--color-bg-3);
+      position: relative; }
+    .tpl-component-promo-slider .slider-content {
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 78px 8% 80px 8.7%;
+      width: 42.5%;
+      position: relative;
+      background-color: swatch(color-bg-6, 0.9);
+      min-width: 500px; }
+    .tpl-component-promo-slider .slider .discount {
+      box-shadow: 0 16px 35px var(--color-bs-1);
+      min-height: 155px;
+      min-width: 155px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: var(--color-bg-5); }
+      .tpl-component-promo-slider .slider .discount:before {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 87%;
+        height: 87%;
+        border: 1px solid var(--color-border-3);
+        content: "";
+        border-radius: 50%;
+        margin: 0 auto; }
+      .tpl-component-promo-slider .slider .discount-wrapper {
+        padding: 50px 10px 10px; }
+      .tpl-component-promo-slider .slider .discount-amount {
+        font-family: var(--font-4);
+        font-size: 40px;
+        line-height: 26px;
+        color: var(--color-font-5);
+        font-style: italic; }
+      .tpl-component-promo-slider .slider .discount-desc {
+        font-size: 18px;
+        line-height: 26px;
+        font-style: italic;
+        font-family: var(--font-4);
+        color: var(--color-font-5);
+        padding-top: 12px; }
+    .tpl-component-promo-slider .slider-header {
+      font-family: var(--font-2);
+      font-size: 32px;
+      line-height: 42px;
+      font-weight: 700;
+      color: var(--color-font-2);
+      position: relative;
+      display: inline-block;
+      vertical-align: top; }
+    .tpl-component-promo-slider .slider-postfix {
+      font-size: 18px;
+      line-height: 32px;
+      font-family: var(--font-4);
+      color: var(--color-font-1);
+      max-width: 600px;
+      padding-top: 30px;
+      margin: 0 auto; }
+    .tpl-component-promo-slider .slider .button {
+      margin-top: 21px; }
+    .tpl-component-promo-slider .slider-badge {
+      position: absolute;
+      left: -60px;
+      top: calc(50% - 30px);
+      transform: translateY(-50%);
+      content: ''; }
+    .tpl-component-promo-slider .slider .fotorama__nav-wrap {
+      margin-top: 26px; }
+    .tpl-component-promo-slider .slider .fotorama__nav--dots .fotorama__nav__frame {
+      width: 30px;
+      height: 30px; }
+      .tpl-component-promo-slider .slider .fotorama__nav--dots .fotorama__nav__frame:hover .fotorama__dot {
+        background-color: var(--color-bg-1);
+        transition: all 0.2s; }
+        .tpl-component-promo-slider .slider .fotorama__nav--dots .fotorama__nav__frame:hover .fotorama__dot:after {
+          border-color: var(--color-bg-1);
+          transition: all 0.2s; }
+    .tpl-component-promo-slider .slider .fotorama__dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--color-bg-13);
+      border: 0;
+      border-radius: 50%; }
+    .tpl-component-promo-slider .slider .fotorama__nav__frame.fotorama__active .fotorama__dot {
+      width: 6px;
+      height: 6px;
+      position: relative;
+      top: 12px;
+      background-color: var(--color-bg-2);
+      border-radius: 50%;
+      border-width: 0; }
+      .tpl-component-promo-slider .slider .fotorama__nav__frame.fotorama__active .fotorama__dot:after {
+        content: "";
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        border-radius: 50%;
+        border: 1px solid var(--color-bg-13); }

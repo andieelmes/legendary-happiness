@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="276px" height="61px" viewBox="0 0 276 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.743494424%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#013C92" offset="0%"></stop>
+            <stop stop-color="#2758AC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tece_main_1280-Kaталог" transform="translate(-81.000000, -316.000000)" fill="url(#linearGradient-1)">
+            <g id="Каталог-выпадающий" transform="translate(80.000000, 164.000000)">
+                <path d="M1,152 L270,152 L270,213 L1,213 L1,152 Z M277,182.5 L270,213 L270,152 L277,182.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

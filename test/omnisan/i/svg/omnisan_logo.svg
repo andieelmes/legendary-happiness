@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="31px" viewBox="0 0 208 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Omnisan_карточка" transform="translate(-81.000000, -62.000000)">
+            <g id="Group-13" transform="translate(79.000000, 52.000000)">
+                <text id="OMNISAN" font-family="Century Gothic" font-size="40" font-weight="normal" letter-spacing="3.79999995">
+                    <tspan x="0.942187786" y="40" fill="#5EC0AD">OMNI</tspan>
+                    <tspan x="126.298438" y="40" fill="#363636">SA</tspan>
+                    <tspan x="183.410156" y="40" fill="#363636">N</tspan>
+                </text>
+                <g id="Page-1" transform="translate(15.000000, 21.000000)" fill="#353841">
+                    <path d="M2.99969326,0 C2.30865856,1.96831975 -0.107704607,3.72345756 0.00340293282,5.71978002 C0.00430624616,5.72429659 0.00340293282,5.72881316 0.00340293282,5.73242641 C0.00972612615,7.39271632 1.34572655,8.77568903 2.99969326,8.77568903 C4.65365997,8.77568903 5.98966039,7.39271632 5.99598358,5.73242641 C5.99598358,5.72881316 5.99508027,5.72429659 5.99598358,5.71978002 C6.10709112,3.72345756 3.69072796,1.96831975 2.99969326,0" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+.tpl-component-block-tabs {
+  margin-top: 98px;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+  background-color: rgba(246, 246, 246, 0.8); }
+  .tpl-component-block-tabs .block-tabs-inner {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; }
+  .tpl-component-block-tabs .block-tab {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-2);
+    color: var(--color-font-13);
+    padding: 10px 0px;
+    margin: 0 36px;
+    transition: all 0.2s; }
+    .tpl-component-block-tabs .block-tab:hover, .tpl-component-block-tabs .block-tab:active {
+      color: var(--color-font-5);
+      transition: 0; }
+    .tpl-component-block-tabs .block-tab.active {
+      color: var(--color-font-5);
+      cursor: auto; }

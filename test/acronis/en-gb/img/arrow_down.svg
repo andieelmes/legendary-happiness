@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow down 16x16 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATI-Product-page-#2" transform="translate(-394.000000, -2022.000000)">
+            <g id="Arrow-down-16x16" transform="translate(392.000000, 2015.000000)">
+                <rect id="16x16-container" x="0" y="0" width="16" height="16"></rect>
+                <polyline id="Path-5" stroke="#2C83E6" stroke-width="2" stroke-linecap="round" transform="translate(8.000000, 10.500000) rotate(90.000000) translate(-8.000000, -10.500000) " points="5.5 5.5 10.5 10.5 5.5 15.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

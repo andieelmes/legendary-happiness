@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Netcat</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="fotorama/fotorama.css" rel="stylesheet">
+    <link href="swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v1">
+    <link rel="stylesheet" type="text/css" href="css/cart-adaptive.css?v1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+  </head>
+  <body>
+    <!--img(src="cat.png" style="position:absolute;opacity:0.5;top:-3001px;margin-left:50%;left: -827px;z-index: 900;max-width: initial;") -->
+    <div class="all main cart">
+      <div class="tpl-component-header-top-part">
+        <div class="block-content flex-container">
+          <div class="menu js-open-block">
+            <div class="menu-icon js-open-btn">
+              <div class="menu-line menu-line--1"></div>
+              <div class="menu-line menu-line--2"></div>
+              <div class="menu-line menu-line--3"></div>
+            </div>
+            <div class="menu-content">
+              <ul class="menu-nav">
+                <li><a class="menu-nav-link link link--primary" href="#">Коллекции                               </a></li>
+                <li><a class="menu-nav-link link link--primary" href="#">Магазины сети</a></li>
+                <li><a class="menu-nav-link link link--primary" href="#">Блог</a></li>
+                <li><a class="menu-nav-link link link--primary" href="#">О нас</a></li>
+                <li><a class="menu-nav-link link link--primary" href="#">Контакты</a></li>
+              </ul>
+              <ul class="menu-categories">
+                <li><a class="menu-categories-link link link--primary" href="#">Для кухни                               </a></li>
+                <li><a class="menu-categories-link link link--primary" href="#">Для спальни</a></li>
+                <li><a class="menu-categories-link link link--primary" href="#">Для гостиной</a></li>
+                <li><a class="menu-categories-link link link--primary" href="#">Для ванной </a></li>
+                <li><a class="menu-categories-link link link--primary" href="#">Для прихожей</a></li>
+                <li><a class="menu-categories-link link link--primary" href="#">Для лоджий</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="logo"><a class="logo-image link link--primary" href="#"><img src="img/logo.png"></a></div>
+          <ul class="site-nav">
+            <li><a class="site-nav-link link link--primary" href="andieelmes.ru">Коллекции                               </a></li>
+            <li><a class="site-nav-link link link--primary" href="#">Магазины сети</a></li>
+            <li><a class="site-nav-link link link--primary" href="#">Блог</a></li>
+            <li><a class="site-nav-link link link--primary" href="#">О нас</a></li>
+            <li><a class="site-nav-link link link--primary" href="#">Контакты</a></li>
+          </ul>
+          <div class="search-block js-open-block">
+            <button class="search-block-button js-open-btn" type="button"></button>
+            <form class="search-block-form" action="#">
+              <input class="input search-block-input">
+              <button class="search-block-button" type="submit">  </button>
+            </form>
+          </div>
+          <div class="cart"><a class="cart-icon" href="#">
+              <div class="cart-counter">16 </div></a></div>
+          <div class="profile"><a class="profile-icon js-login-btn" href="#" data-popup="#loginPopup"></a></div>
+        </div>
+      </div>
+      <div class="tpl-component-header-bottom-part">
+        <div class="block-content flex-container">
+          <ul class="site-categories">
+            <li><a class="site-categories-link link link--primary" href="#">Для кухни                               </a></li>
+            <li><a class="site-categories-link link link--primary" href="#">Для спальни</a></li>
+            <li><a class="site-categories-link link link--primary active" href="#">Для гостиной</a></li>
+            <li><a class="site-categories-link link link--primary" href="#">Для ванной </a></li>
+            <li><a class="site-categories-link link link--primary" href="#">Для прихожей</a></li>
+            <li><a class="site-categories-link link link--primary" href="#">Для лоджий</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="block-content">
+        <div class="tpl-component-cart-page js-cart">
+          <div class="cart-page-top">
+            <div class="cart-page-labels js-stage-labels"><span class="cart-page-label active js-stage-label" data-stage="#stageCart" data-id="1">Ваша корзина</span><span class="cart-page-label js-stage-label" data-stage="#stageDelivery" data-id="2">Доставка</span><span class="cart-page-label js-stage-label" data-stage="#stagePayment" data-id="3">Оплата</span><span class="cart-page-label js-stage-label" data-stage="#stageOk" data-id="4">Заказ принят</span></div>
+          </div>
+          <form class="cart-page-stage cart-page-stage--cart active js-cart-stage js-stage-form" id="stageCart">
+            <div class="cart-page-content">
+              <div class="cart-stage-top flex-container">
+                <div class="cart-page-table">
+                  <div class="cart-page-header"> 
+                    <div class="cart-page-column cart-page-column--title">
+                      <div class="cart-stage-label">Товар </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--price"> 
+                      <div class="cart-stage-label">Цена </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--quantity"> 
+                      <div class="cart-stage-label">К-во </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--sum"> 
+                      <div class="cart-stage-label">Сумма </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--changeStatus"></div>
+                  </div>
+                  <div class="cart-page-row js-cart-item">
+                    <input class="js-cart-item-status" type="hidden" value="0" name="nameItemDeleted">
+                    <div class="cart-page-column cart-page-column--title">
+                      <div class="cart-page-image" style="background-image:url(img/products/product17.png);"></div>
+                      <div class="cart-page-info">
+                        <div class="cart-page-name">Столькгольм</div>
+                        <div class="cart-page-desc">Стул деревянный</div>
+                      </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--price">
+                      <input class="js-cart-item-price-input" type="hidden" value="15000" name="price">
+                      <div class="cart-page-price">15 000<span> руб.</span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--quantity">
+                      <div class="product-quantity js-quantity">     <span class="product-quantity-inputs">
+                          <div class="product-quantity-button product-quantity-button--less js-quantity-btn js-quantity-btn--less"></div>
+                          <input class="product-quantity-input input js-quantity-input js-cart-item-quanity-input" name="product-quantity" value="1" max="3" min="0" step="1">
+                          <div class="product-quantity-button product-quantity-button--more js-quantity-btn js-quantity-btn--more"></div></span><span class="product-quantity-available">В наличии <span>3 шт.</span></span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--sum">
+                      <input class="js-cart-item-sum-input" type="hidden" value="15000" name="sum">
+                      <div class="cart-page-price"> <span class="js-cart-item-sum">15 000</span><span> руб.</span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--changeStatus">
+                      <div class="cart-page-changeStatus js-cart-item-changeStatus-btn"></div>
+                    </div>
+                  </div>
+                  <div class="cart-page-row js-cart-item">
+                    <input class="js-cart-item-status" type="hidden" value="0" name="nameItemDeleted">
+                    <div class="cart-page-column cart-page-column--title">
+                      <div class="cart-page-image" style="background-image:url(img/products/product9.png);"></div>
+                      <div class="cart-page-info">
+                        <div class="cart-page-name">Ханнa</div>
+                        <div class="cart-page-desc"> <span>Ваза с узким горлом</span>, <span>цвет охра </span></div>
+                      </div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--price">
+                      <input class="js-cart-item-price-input" type="hidden" value="15000" name="price">
+                      <div class="cart-page-price">15 000<span> руб.</span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--quantity">
+                      <div class="product-quantity js-quantity">   <span class="product-quantity-inputs">
+                          <div class="product-quantity-button product-quantity-button--less js-quantity-btn js-quantity-btn--less"></div>
+                          <input class="product-quantity-input input js-quantity-input js-cart-item-quanity-input" name="product-quantity" value="2" max="2" min="0" step="1">
+                          <div class="product-quantity-button product-quantity-button--more js-quantity-btn js-quantity-btn--more"></div></span><span class="product-quantity-available">В наличии <span>2 шт.</span></span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--sum">
+                      <input class="js-cart-item-sum-input" type="hidden" value="30000" name="sum">
+                      <div class="cart-page-price"> <span class="js-cart-item-sum">30 000</span><span> руб.</span></div>
+                    </div>
+                    <div class="cart-page-column cart-page-column--changeStatus">
+                      <div class="cart-page-changeStatus js-cart-item-changeStatus-btn"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-stage-bottom">
+                <div class="cart-stage-subscribe cart-subscribe">
+                  <label class="cart-subscribe-label"> <span class="cart-subscribe-text"> Купоны на скидку</span>
+                    <input class="input input--cart input--typeOne cart-subscribe-input js-input-email" type="email" placeholder="Введите email" name="email">
+                    <button class="cart-subscribe-button button button--primary button--typeTwo js-email-btn" type="button">Применить</button>
+                  </label>
+                </div>
+                <div class="cart-stage-sum cart-sum">
+                  <input class="js-cart-item-sumTotal-input" type="hidden" value="30000" name="sumTotal"><span class="cart-sum-text">К оплате</span><span class="cart-sum-number"> <span class="js-cart-item-sumTotal">2 199</span><span> руб. </span></span>
+                </div>
+              </div>
+            </div>
+            <div class="cart-stage-next cart-next"><span class="cart-next-text">Выберите способ доставки и укажите адрес на следующем этапе</span>
+              <button class="button button--primary button--arrow cart-next-button js-cart-stage-btn" type="submit" data-nextStage="#stageDelivery">оформить заказ</button>
+            </div>
+          </form>
+          <form class="cart-page-stage cart-page-stage--delivery js-cart-stage js-stage-form" id="stageDelivery">
+            <div class="cart-page-content">
+              <div class="cart-stage-top flex-container">
+                <div class="cart-stage-column">
+                  <label class="cart-input-label"><span class="cart-input-text">ФИО</span>
+                    <input class="input input--cart cart-input-input js-input-name" placeholder="Как к вам обращаться" type="text" required="required" name="userName">
+                  </label>
+                  <label class="cart-input-label"><span class="cart-input-text">Телефон <span class="cart-input-additional">– необязательно</span></span>
+                    <input class="input input--cart cart-input-input js-input-phone" placeholder="+7" type="text" name="userPhone">
+                  </label>
+                  <label class="cart-input-label"><span class="cart-input-text">Город </span>
+                    <div class="cart-input-select select">
+                      <select class="cart-select js-input-city" name="city-select" data-custom-class="cart-select">
+                        <option value="Москва">Москва</option>
+                        <option value="Воронеж">Воронеж</option>
+                        <option value="Астана">Астана</option>
+                        <option value="Берлин">Берлин</option>
+                      </select>
+                    </div>
+                  </label>
+                </div>
+                <div class="cart-stage-column">
+                  <div class="radio cart-radio">
+                    <div class="cart-input-text">Выберите способ доставки</div>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="pickup" checked name="delivery"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">Самовывоз  
+                          <div class="cart-radio-tooltip cart-tooltip">
+                            <div class="cart-tooltip-icon"></div>
+                            <div class="cart-tooltip-text">С Кропоткинская, ул. Морская 19 или Кропоткинская, ул. Морская 19</div>
+                          </div>
+                        </div>
+                        <div class="cart-radio-caption">Самовывоз из магазина, <span>29 мая </span>– <span>199 руб.</span></div></span>
+                    </label>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="ems" name="delivery"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">EMS
+                          <div class="cart-radio-tooltip cart-tooltip">
+                            <div class="cart-tooltip-icon"></div>
+                            <div class="cart-tooltip-text">С Кропоткинская, ул. Морская 19 или Кропоткинская, ул. Морская 19</div>
+                          </div>
+                        </div>
+                        <div class="cart-radio-caption">Собственная служба доставки, курьер,  <span>27 мая </span>– <span>400 руб.      </span></div></span>
+                    </label>
+                  </div>
+                  <label class="cart-input-label"><span class="cart-input-text">Выберите пункт выдачи </span>
+                    <div class="cart-input-select select cart-input-select--metro">
+                      <select class="cart-select" name="metro-select" data-custom-class="cart-select">
+                        <option value="metro1">Кропоткинская, ул. Морская 19</option>
+                        <option value="metro2">Парк культуры, ул. Морская 19</option>
+                        <option value="metro3">Библиотека имени Ленина, ул. Морская 19</option>
+                        <option value="metro4">Хамовники, ул. Морская 19</option>
+                      </select>
+                    </div>
+                  </label>
+                  <label class="cart-input-label cart-input-label--comment"><span class="cart-input-text">Комментарий </span>
+                    <input class="input input--cart cart-input-input" placeholder="Примечание о доставке" name="note">
+                  </label>
+                </div>
+              </div>
+              <div class="cart-stage-bottom">
+                <div class="cart-stage-checkbox checkbox checkbox--primary cart-checkbox">
+                  <label class="checkbox-item cart-checkbox-item">
+                    <input class="checkbox-input cart-checkbox-input" type="checkbox" value="true" name="regcheckbox" checked><span class="checkbox-fake cart-checkbox-fake"></span><span class="checkbox-label cart-checkbox-label">Зарегистрируйте меня, я хочу видеть состояние моего заказа и получать скидки при следующих покупках</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="cart-stage-next cart-next"><span class="cart-next-text">Выберите способ оплаты и оплатите заказ на следующем этапе</span>
+              <button class="button button--primary button--arrow cart-next-button js-cart-stage-btn" type="submit" data-nextStage="#stagePayment">перейти к оплате </button>
+            </div>
+          </form>
+          <form class="cart-page-stage cart-page-stage--payment js-cart-stage js-stage-form" id="stagePayment">
+            <div class="cart-page-content">
+              <div class="cart-stage-top flex-container">
+                <div class="cart-stage-column">
+                  <div class="radio cart-radio">
+                    <div class="cart-input-text cart-payment-text">Выберите способ оплаты</div>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="qiwi" name="payment"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">Qiwi </div>
+                        <div class="cart-radio-caption">Платёжная система</div></span>
+                    </label>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="paypal" checked name="payment"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">Paypal</div>
+                        <div class="cart-radio-caption">Платёжная система, комиссия 5% </div></span>
+                    </label>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="sberbank" name="payment"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">По квитанции Сбербанка  </div></span>
+                    </label>
+                    <label class="radio-item cart-radio-item">
+                      <input class="radio-input cart-radio-input" type="radio" value="cashOnDelivery" name="payment"><span class="radio-fake cart-radio-fake"></span><span class="radio-label cart-radio-label">
+                        <div class="cart-radio-type">Оплата при получении в пункте выдачи</div>
+                        <div class="cart-radio-caption">Оплата при получении заказа наличными или банковской картой в офисе или курьеру    </div></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-stage-next cart-next"><span class="cart-next-text">Внимание! Вы будете переадресованы на сайт выбранной платёжной системы</span>
+              <button class="button button--primary button--arrow cart-next-button js-cart-stage-btn" type="submit" data-nextStage="#stageOk">Оплатить заказ</button>
+            </div>
+          </form>
+          <div class="cart-page-stage cart-page-stage--ok js-cart-stage js-stage-form" id="stageOk">
+            <div class="cart-page-content">
+              <div class="cart-stage-top">
+                <div class="cart-stage-header">Спасибо за Ваш заказ!</div>
+                <div class="cart-stage-postfix">Детали заказа и информация о доставке придут на почту <span>goodboy@gmail.com</span> в течении 5 минут</div><a class="button button--primary button--arrow cart-next-button" href="#">перейти на главную</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tpl-component-footer">
+        <div class="block-content flex-container">
+          <div class="footer-info">
+            <div class="footer-logo"><img src="img/logo.png"></div>
+            <div class="footer-copyright">© 2005 ООО Компания</div>
+            <div class="footer-contact">
+              <div class="footer-phone footer-contact-item"><a class="link link--secondary" href="tel:+79000000609">+7 900 000-06-09</a>, <a class="link link--secondary" href="tel:+79608000299">+7 960 800-02-99  </a></div><a class="footer-email footer-contact-item link link--secondary" href="mailto:netcatstore@gmail.com">netcatstore@gmail.com</a>
+              <div class="footer-address footer-contact-item">900600 Россия <br>г. Москва, Конфетный пер.,  д. 166, оф. 205</div>
+            </div>
+          </div>
+          <div class="footer-main">
+            <div class="footer-category">
+              <div class="footer-title">коллекции </div>
+              <ul class="footer-items">
+                <li><a class="footer-item link link--secondary" href="#">Для кухни</a></li>
+                <li><a class="footer-item link link--secondary" href="#">Для гостиной </a></li>
+                <li><a class="footer-item link link--secondary" href="#">Для спальни </a></li>
+                <li><a class="footer-item link link--secondary" href="#">Для прихожей </a></li>
+                <li><a class="footer-item link link--secondary" href="#">Для ванной</a></li>
+                <li><a class="footer-item link link--secondary" href="#">Для лоджий</a></li>
+              </ul>
+            </div>
+            <div class="footer-category">
+              <div class="footer-title">поддержка</div>
+              <ul class="footer-items">
+                <li><a class="footer-item link link--secondary" href="#">Доставка</a></li>
+                <li><a class="footer-item link link--secondary" href="#">Возврат</a></li>
+                <li><a class="footer-item link link--secondary" href="#">Как сделать заказ</a></li>
+                <li><a class="footer-item link link--secondary" href="#">Подарочные карты  </a></li>
+              </ul>
+            </div>
+            <div class="footer-category footer-additional">
+              <ul class="footer-items">
+                <li><a class="link link--secondary footer-item" href="#">Магазины сети                           </a></li>
+                <li><a class="link link--secondary footer-item" href="#">Блог</a></li>
+                <li><a class="link link--secondary footer-item" href="#">О нас</a></li>
+                <li><a class="link link--secondary footer-item" href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-netcat">Сделано с <a class="footer-netcat-link link link--orange link--noUnderline" href="#">Неткэтом</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-product-added-popup fav" id="favPopup">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner js-popup-inner"><a class="popup-content-close js-popup-close" href="#">  </a>
+              <div class="popup-content-text">
+                <div class="popup-content-icon"></div>
+                <div class="popup-content-header">Товар добавлен в избранное </div>
+                <div class="popup-content-caption">Всего в избранном 3 товара</div>
+                <div class="popup-content-buttons">
+                  <button class="button button--form button--form--secondary js-popup-close"> Продолжить покупки</button>
+                  <button class="button button--form">Посмотреть избранное</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-product-added-popup compare" id="comparePopup">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner js-popup-inner"><a class="popup-content-close js-popup-close" href="#">  </a>
+              <div class="popup-content-text">
+                <div class="popup-content-icon"></div>
+                <div class="popup-content-header">Товар добавлен в список сравнения</div>
+                <div class="popup-content-caption">Всего в списке сравнения 3 товара</div>
+                <div class="popup-content-buttons">
+                  <button class="button button--form button--form--secondary js-popup-close"> Продолжить покупки</button>
+                  <button class="button button--form">Посмотреть список</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-quick-order-popup js-popup" id="quickOrderPopup">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner popup-content-inner--big js-popup-inner"><a class="popup-content-close js-popup-close" href="#">  </a>
+              <form class="popup-content-text">
+                <div class="popup-content-header">Быстрый заказ  </div>
+                <div class="popup-content-caption">Покупайте без регистрации! Укажите свой номер телефона и менеджер свяжется с вами для уточнения деталей заказа </div><a class="popup-content-item" href="#">
+                  <div class="popup-content-image" style="background-image:url(img/products/product-small-1.png);"> </div>
+                  <div class="popup-content-info">
+                    <div class="popup-content-name">Ханна  </div>
+                    <div class="popup-content-desc">Ваза с узким горлышком</div><span class="popup-content-quantity"> <span>1 </span>х  </span><span class="popup-content-price">
+                      15 000 руб.</span>
+                  </div></a>
+                <div class="popup-content-inputs">
+                  <label class="popup-content-label popup-content-label--email">
+                    <input class="input input--border popup-content-input popup-content-input--name" placeholder="Как к вам обращаться" name="name"><span class="popup-content-label-icon"></span>
+                  </label>
+                  <label class="popup-content-label popup-content-label--phone">
+                    <input class="input input--border popup-content-input popup-content-input--phone" placeholder="Ваш телефон" name="phone"><span class="popup-content-label-icon"></span>
+                  </label>
+                </div>
+                <div class="popup-content-buttons">
+                  <button class="button button--form" type="submit">Оформить заказ</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--include components/subscribePopup/default.pug-->
+    <!--include components/subscribePopup/imageLeft.pug-->
+    <!--include components/subscribePopup/noImage.pug-->
+    <div class="tpl-component-login-popup js-popup" id="loginPopup">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner js-popup-inner"><a class="popup-content-close js-popup-close" href="#">  </a>
+              <form class="popup-content-text js-loginReg-form">
+                <div class="popup-content-top">
+                  <div class="popup-content-header">Войти</div><a class="popup-content-header popup-content-header--alternative js-reg-btn" href="#" data-popup="#regPopup">Зарегистрироваться</a>
+                </div>
+                <div class="popup-content-social"><a class="button button--social button--social--vk" href="#"></a><a class="button button--social button--social--gp" href="#"></a><a class="button button--social button--social--fb" href="#"></a></div>
+                <div class="popup-content-caption">или</div>
+                <div class="popup-content-form">
+                  <div class="popup-content-inputs">
+                    <label class="popup-content-label popup-content-label--email js-loginReg-form-email">
+                      <input class="input input--border popup-content-input popup-content-input--email js-loginReg-form-input" placeholder="Email" name="email"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--password js-loginReg-form-password js-loginReg-form-input">
+                      <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль" name="password" type="password"><span class="popup-content-label-icon"></span>
+                    </label>
+                  </div>
+                  <div class="popup-content-buttons"><a class="popup-content-forgot" href="#">Забыли пароль?</a>
+                    <button class="button button--form popup-content-button js-loginReg-form-btn" type="submit">Войти</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-login-popup reg js-popup" id="regPopup">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner js-popup-inner"><a class="popup-content-close js-popup-close" href="#">       </a>
+              <form class="popup-content-text js-loginReg-form">
+                <div class="popup-content-top">
+                  <div class="popup-content-header">Зарегистрироваться </div><a class="popup-content-header popup-content-header--alternative js-login-btn" href="#" data-popup="#loginPopup2">Войти</a>
+                </div>
+                <div class="popup-content-social"><a class="button button--social button--social--vk" href="#"></a><a class="button button--social button--social--gp" href="#"></a><a class="button button--social button--social--fb" href="#"></a></div>
+                <div class="popup-content-caption">или</div>
+                <div class="popup-content-form">
+                  <div class="popup-content-inputs">
+                    <label class="popup-content-label popup-content-label--email js-loginReg-form-email js-loginReg-form-input">
+                      <input class="input input--border popup-content-input popup-content-input--email" placeholder="Email" name="email" value="goodboy@gmail.com"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--password js-loginReg-form-password js-loginReg-form-input">
+                      <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль" name="password" type="password"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--password js-loginReg-form-password2 js-loginReg-form-input">
+                      <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль ещё раз" name="password" type="password"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--name js-loginReg-form-name js-loginReg-form-input">
+                      <input class="input input--border popup-content-input popup-content-input--name" placeholder="Как к вам обращаться" name="name"><span class="popup-content-label-icon">           </span>
+                    </label>
+                  </div>
+                  <div class="popup-content-buttons">
+                    <button class="button button--form popup-content-button js-loginReg-form-btn" type="submit">Зарегистрироваться</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-login-popup login-image js-popup" id="loginPopup2">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-outer js-popup-inner">
+              <div class="popup-content-images">
+                <div class="popup-content-image" style="background-image:url(img/banners/banner3.png);"></div>
+                <div class="popup-content-inner popup-content-inner--black">
+                  <div class="popup-content-header">Регистрация нового пользователя</div>
+                  <ul class="popup-content-pros">
+                    <li class="popup-content-pro">Индивидуальные скидки </li>
+                    <li class="popup-content-pro">Оповещения об акциях </li>
+                    <li class="popup-content-pro">Быстрый доступ к заказам</li>
+                  </ul>
+                  <div class="popup-content-buttons">
+                    <button class="button button--form button--form--inverse popup-content-button js-reg-btn" data-popup="#regPopup2">Зарегистрироваться</button>
+                  </div>
+                </div>
+              </div>
+              <div class="popup-content-inner"><a class="popup-content-close js-popup-close" href="#">       </a>
+                <form class="popup-content-text js-loginReg-form">
+                  <div class="popup-content-top">
+                    <div class="popup-content-header">Войти</div>
+                    <div class="popup-content-social"><a class="button button--social button--social--vk" href="#"></a><a class="button button--social button--social--gp" href="#"></a><a class="button button--social button--social--fb" href="#"></a></div>
+                  </div>
+                  <div class="popup-content-form">
+                    <div class="popup-content-inputs">
+                      <label class="popup-content-label popup-content-label--email js-loginReg-form-email js-loginReg-form-input">
+                        <input class="input input--border popup-content-input popup-content-input--email" placeholder="Email" name="email" value="goodboy@gmail.com"><span class="popup-content-label-icon"></span>
+                      </label>
+                      <label class="popup-content-label popup-content-label--password js-loginReg-form-password js-loginReg-form-input">
+                        <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль" name="password" type="password"><span class="popup-content-label-icon"></span>
+                      </label>
+                    </div>
+                    <div class="popup-content-buttons"><a class="popup-content-forgot" href="#">Забыли пароль?</a>
+                      <button class="button button--form popup-content-button js-loginReg-form-btn" type="submit">Войти</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tpl-component-login-popup reg reg-social-bottom js-popup" id="regPopup2">
+      <div class="popup">
+        <div class="popup-content-wrap">
+          <div class="popup-content">
+            <div class="popup-content-inner popup-content-inner--small js-popup-inner"><a class="popup-content-close js-popup-close" href="#">       </a>
+              <form class="popup-content-text js-loginReg-form">
+                <div class="popup-content-top">
+                  <div class="popup-content-header">Зарегистрироваться </div>
+                </div>
+                <div class="popup-content-form">
+                  <div class="popup-content-inputs">
+                    <label class="popup-content-label popup-content-label--email js-loginReg-form-input js-loginReg-form-email">
+                      <input class="input input--border popup-content-input popup-content-input--email" placeholder="Email" name="email" value="goodboy@gmail.com"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--password js-loginReg-form-input js-loginReg-form-password">
+                      <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль" name="password" type="password"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--password js-loginReg-form-input js-loginReg-form-password2">
+                      <input class="input input--border popup-content-input popup-content-input--password" placeholder="Пароль ещё раз" name="password" type="password"><span class="popup-content-label-icon"></span>
+                    </label>
+                    <label class="popup-content-label popup-content-label--name js-loginReg-form-input js-loginReg-form-name">
+                      <input class="input input--border popup-content-input popup-content-input--name" placeholder="Как к вам обращаться" name="name"><span class="popup-content-label-icon">           </span>
+                    </label>
+                  </div>
+                  <div class="popup-content-buttons">
+                    <button class="button button--form popup-content-button js-loginReg-form-btn" type="submit">Зарегистрироваться</button>
+                  </div>
+                </div>
+                <div class="popup-content-bottom">
+                  <div class="popup-content-caption">Или войти</div>
+                  <div class="popup-content-social"><a class="button button--social button--social--vk" href="#"></a><a class="button button--social button--social--gp" href="#"></a><a class="button button--social button--social--fb" href="#"></a><a class="button button--social button--social--email" href="#"></a></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="fotorama/fotorama.js"></script>
+    <script src="css-element-queries/ResizeSensor.js"></script>
+    <script src="css-element-queries/ElementQueries.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script src="swiper/js/swiper.min.js"></script>
+    <script src="jquery-mask/jquery.mask.min.js"></script>
+    <script src="scripts/main.js?v1"></script>
+  </body>
+</html>

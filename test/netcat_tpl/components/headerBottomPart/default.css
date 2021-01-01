@@ -1,0 +1,21 @@
+.tpl-component-header-bottom-part {
+  position: relative;
+  min-height: 80px;
+  background-color: var(--color-bg-7);
+  border-bottom: 1px solid var(--color-border-13);
+  display: block; }
+  .tpl-component-header-bottom-part .block-content {
+    justify-content: space-between; }
+  .tpl-component-header-bottom-part .site-categories {
+    padding: 26px 2.6% 35px 3.7%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .tpl-component-header-bottom-part .site-categories-link {
+      font-size: 16px;
+      line-height: 20px;
+      font-family: var(--font-4);
+      font-weight: 400;
+      padding: 0 20px; }
+      .tpl-component-header-bottom-part .site-categories-link.active {
+        color: var(--color-font-5); }

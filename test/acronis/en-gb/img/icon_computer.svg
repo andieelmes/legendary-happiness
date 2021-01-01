@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.4,9.6 L0.901950359,9.6 C0.403816931,9.6 0,9.20166849 0,8.70414219 L0,0.895857811 C0,0.401089204 0.399261475,0 0.901950359,0 L11.0980496,0 C11.5961831,0 12,0.398331508 12,0.895857811 L12,8.70414219 C12,9.1989108 11.6007385,9.6 11.0980496,9.6 L6.6,9.6 L6.6,10.8 L7.80178192,10.8 C8.13216864,10.8 8.4,11.0663189 8.4,11.4 C8.4,11.7313708 8.12817822,12 7.80178192,12 L4.19821808,12 C3.86783136,12 3.6,11.7336811 3.6,11.4 C3.6,11.0686292 3.87182178,10.8 4.19821808,10.8 L5.4,10.8 L5.4,9.6 Z M10.8,7.2 L1.2,7.2 L1.2,8.4 L10.8,8.4 L10.8,7.2 Z M10.8,6 L10.8,1.2 L1.2,1.2 L1.2,6 L10.8,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATI-Product-page-#2" transform="translate(-117.000000, -2019.000000)">
+            <g id="Mask-Copy-2" transform="translate(117.000000, 2019.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#2C83E6" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
