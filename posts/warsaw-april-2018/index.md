@@ -7,30 +7,30 @@ tags:
   - warsaw
 layout: layouts/post.njk
 ---
-![](./images/IMG_0914.jpg)
+![](./images/IMG_0914.jpg){ loading=lazy }
 
 Здесь у меня была пересадка.
 
 Сходили в парк Лазенки. Он занимает огромную площадь (76 га) прямо в центре города. Там свободно ходят павлины, белки и лисицы, а вороны докучают смотрителям, выпрашивая еду.
 
-![](./images/IMG_0976.jpg)
+![](./images/IMG_0976.jpg){ loading=lazy }
 
 Некоторые дорожки мягкие, покрыты каким-то песком:
 
-![](./images/IMG_0963.jpg)
+![](./images/IMG_0963.jpg){ loading=lazy }
 
 Есть пруд с памятником Шопену, где иногда устраивают концерты:
 
-![](./images/IMG_0917.jpg)
+![](./images/IMG_0917.jpg){ loading=lazy }
 
 Памятник собачке:
 
-![](./images/IMG_0941.jpg)
+![](./images/IMG_0941.jpg){ loading=lazy }
 
 Дворец на воде, восстановленный после WWII:
 
-![](./images/IMG_0965.jpg)
+![](./images/IMG_0965.jpg){ loading=lazy }
 
 Деревья начинают рано цвести
 
-![](./images/IMG_0959.jpg)
+![](./images/IMG_0959.jpg){ loading=lazy }

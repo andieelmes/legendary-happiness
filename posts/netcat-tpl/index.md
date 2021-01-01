@@ -13,6 +13,6 @@ layout: layouts/post.njk
 
 Плюсом является то, что у можно вставлять один и тот же блок в разные места сетки, не меняя стилей:
 
-[![Скриншот страницы каталога](./images/tpl-1.png)](/test/netcat_tpl/catalog.html)
+[![Скриншот страницы каталога](./images/tpl-1.png){ loading=lazy }](/test/netcat_tpl/catalog.html)
 
-[![Скриншот страницы главной](./images/tpl-2.png)](/test/netcat_tpl/index.html)
+[![Скриншот страницы главной](./images/tpl-2.png){ loading=lazy }](/test/netcat_tpl/index.html)
