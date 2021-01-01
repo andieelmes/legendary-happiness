@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: post
 ---
 <article class="post">
-  <h1 class="post__title"> {{ title }}</h1>
+  <h1 class="post__title page-title"> {{ title }}</h1>
 
   <div class="post__meta meta">
     <time class="datetime meta__datetime" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
