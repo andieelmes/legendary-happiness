@@ -22,6 +22,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
+    "date-fns": "2.16.1",
     "eleventy-plugin-sass": "1.1.1",
     "eleventy-plugin-youtube-embed": "1.5.0",
     "html-minifier": "4.0.0",
@@ -29,7 +30,5 @@
     "markdown-it-attrs": "4.0.0",
     "markdown-it-implicit-figures": "0.10.0"
   },
-  "dependencies": {
-    "date-fns": "^2.16.1"
-  }
+  "dependencies": {}
 }
