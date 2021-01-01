@@ -1,0 +1,18 @@
+.document_404 {
+  .document__main {
+    margin: auto;
+    width: auto;
+  }
+
+  .page-title {
+    font-size: 6rem;
+
+    @media (min-width: 768px) {
+      font-size: 10rem;
+    }
+  }
+
+  .document__footer {
+    margin-top: 0;
+  }
+}

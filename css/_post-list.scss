@@ -1,0 +1,15 @@
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list__item + .post-list__item {
+  margin-top: 1rem;
+}
+
+.post-list_view_inline {
+  .post-list__item + .post-list__item {
+    margin-top: 0.5rem;
+  }
+}

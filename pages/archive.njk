@@ -1,0 +1,12 @@
+---
+layout: layouts/default.njk
+permalink: /posts/
+eleventyNavigation:
+  key: Блог
+  order: 1
+---
+
+<h1 class="page-title">Блог</h1>
+
+{% set postlist = collections.posts %}
+{% include "components/post-list.njk" %}

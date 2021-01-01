@@ -1,0 +1,8 @@
+---
+permalink: /tags/
+layout: layouts/default.njk
+---
+<h1 class="page-title">Теги</h1>
+
+{% set tagList = collections.tagList %}
+{% include "components/tag-list.njk" %}

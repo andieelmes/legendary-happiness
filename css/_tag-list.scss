@@ -1,0 +1,17 @@
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -0.2em;
+}
+
+.tag-list__item {
+  margin-bottom: 0.2em;
+}
+
+.tag-list__item:not(:last-child) {
+  margin-right: 0.2rem;
+}

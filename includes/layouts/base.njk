@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00C6CA">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body class="document document_{{ templateClass }}">
+    <header class="trim header document__header">
+      <ul class="navigation document__navigation">
+      {%- for entry in collections.all | eleventyNavigation %}
+        {% set isCurrent = entry.url == page.url  %}
+        <li class="navigation__item">
+          {% if isCurrent %}
+            <span class="navigation__content navigation__content_current">{{ entry.title }}</span>
+          {% else %}
+            <a class="navigation__content link link_theme_secondary" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {% endif %}
+        </li>
+      {%- endfor %}
+      </ul>
+    </header>
+
+    <main{% if templateClass %} class="trim main document__main"{% endif %}>
+      {{ content | safe }}
+    </main>
+
+    <footer class="trim footer document__footer">© Зульфия Салихкулова, {{ derived.currentYear }}</footer>
+  </body>
+</html>

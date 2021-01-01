@@ -1,27 +1,38 @@
-const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const implicitFigures = require('markdown-it-implicit-figures');
 const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require('markdown-it-attrs');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+const pluginSass = require("eleventy-plugin-sass");
+const htmlmin = require("html-minifier");
+const format = require("date-fns/format");
+const ru = require("date-fns/locale/ru");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(embedYouTube, {
+    lazy: true,
+    noCookie: false,
+  });
+  eleventyConfig.addPlugin(pluginSass, {
+    watch: ['css/**/*.scss'],
+    outputDir: 'public/css',
+  });
 
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+    return format(dateObj, 'd MMMM yyyy', { locale: ru })
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+    return format(dateObj, 'yyyy-LL-dd')
   });
 
   // Get the first `n` elements of a collection.
@@ -35,6 +46,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
+  });
+
+  eleventyConfig.addFilter("trim", string => {
+    return string.trim();
   });
 
   eleventyConfig.addCollection("tagList", function(collection) {
@@ -66,26 +81,39 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
+  });
+
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("css/**/*.css");
+  eleventyConfig.addPassthroughCopy("posts/**/*.(jpg|png|webp)");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,
-    linkify: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
-  });
+    linkify: true,
+    typographer: true,
+    quotes: '«»„“',
+  }).use(implicitFigures).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
+        const content_404 = fs.readFileSync('public/404.html');
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -123,9 +151,9 @@ module.exports = function(eleventyConfig) {
     // These are all optional, defaults are shown:
     dir: {
       input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
+      includes: "includes",
+      data: "data",
+      output: "public"
     }
   };
 };

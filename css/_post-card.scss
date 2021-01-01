@@ -1,0 +1,44 @@
+.post-card {
+  @media (min-width: 768px) {
+    display: flex;
+  }
+
+  @media (min-width: 1280px) {
+    position: relative;
+  }
+}
+
+.post-card__date {
+  display: flex;
+  margin-top: 0.3em;
+
+  @media (min-width: 1280px) {
+    position: absolute;
+    top: 0;
+    right: calc(100% + 1rem);
+    width: max-content;
+  }
+}
+
+.post-card__link {
+  display: block;
+}
+
+.post-card__tags {
+  @include visually-hidden;
+
+  @media (min-width: 1024px) {
+    @include undo-visually-hidden;
+    margin-bottom: -0.2em;
+  }
+}
+
+.post-card__link, .post-card__tags {
+  &:not(:last-child) {
+    margin-right: 0.5rem;
+
+    @media (min-width: 768px) {
+      margin-right: 1rem;
+    }
+  }
+}

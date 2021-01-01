@@ -1,0 +1,12 @@
+{%- if tagList %}
+  <ul class="tag-list {{mix}}">
+    {% for tag in tagList %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <li class="tag-list__item">
+        <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+{%- endif -%}
