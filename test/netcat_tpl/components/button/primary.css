@@ -1,7 +1,0 @@
-.button--primary {
-  border-radius: 7px;
-  padding: 20px 55px; }
-
-@media (max-width: 400px) {
-  .button--primary {
-    padding: 12px 20px; } }

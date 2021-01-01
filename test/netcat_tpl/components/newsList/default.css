@@ -1,9 +1,0 @@
-.tpl-component-news-list {
-  background-color: var(--color-bg-8);
-  padding: 49px 0 50px; }
-  .tpl-component-news-list .news-list {
-    justify-content: space-between;
-    padding: 42px 0 18px; }
-    .tpl-component-news-list .news-list-top {
-      border-bottom: 2px solid var(--color-border-5);
-      padding: 41px 0 20px; }

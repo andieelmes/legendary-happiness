@@ -1,9 +1,0 @@
-.link--orange {
-  color: var(--color-font-5);
-  text-decoration: none;
-  border-bottom: 1px solid var(--color-font-5);
-  transition: 0; }
-  .link--orange:hover {
-    color: var(--color-font-8);
-    border-color: var(--color-font-8);
-    transition: all 0.2s; }

@@ -1,9 +1,0 @@
-@media (max-width: 1000px) {
-  .catalog-options {
-    display: flex;
-    justify-content: space-between; } }
-
-@media (max-width: 650px) {
-  .catalog-options {
-    display: flex;
-    flex-direction: column; } }
