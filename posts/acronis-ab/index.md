@@ -9,7 +9,7 @@ layout: layouts/post.njk
 ---
 Для A/B теста мне нужно было сверстать страницу, используя настоящие данные.
 
-[![Скриншот страницы продукта Acronis True Image](./images/ab-0.png)](http://andieelmes.ru/test/acronis/en-gb/personal/computer-backup/)
+[![Скриншот страницы продукта Acronis True Image](./images/ab-0.png)](/test/acronis/en-gb/personal/computer-backup/)
 
 Самым сложным на этой странице был калькулятор цен:
 

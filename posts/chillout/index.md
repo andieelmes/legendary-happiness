@@ -14,8 +14,8 @@ layout: layouts/post.njk
 
 У книг, которые ещё не вернули, название зачёркнуто:
 
-[![Скриншот страницы библиотеки](./images/books.png)](https://andieelmes.ru/test/chillout/books.html)
+[![Скриншот страницы библиотеки](./images/books.png)](/test/chillout/books.html)
 
 Настолки мы делим по числу участников или по категориям. В таблице сортировки нет, поэтому я сортирую записи руками уже в браузере скриптом. Сложнее всего было сортировать игры одновременно и по количеству участников, и по категории:
 
-[![Скриншот страницы настолок](./images/tabletop.png)](https://andieelmes.ru/test/chillout/board-games.html)
+[![Скриншот страницы настолок](./images/tabletop.png)](/test/chillout/board-games.html)
