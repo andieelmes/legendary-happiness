@@ -1,5 +1,4 @@
 const fs = require("fs");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const implicitFigures = require('markdown-it-implicit-figures');
 const markdownIt = require("markdown-it");
@@ -11,7 +10,6 @@ const format = require("date-fns/format");
 const ru = require("date-fns/locale/ru");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(embedYouTube, {
     lazy: true,
