@@ -6,6 +6,7 @@ const markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const pluginSass = require("eleventy-plugin-sass");
+const tinyCSS = require('@greyskullrocks/eleventy-plugin-tinycss');
 const htmlmin = require("html-minifier");
 const format = require("date-fns/format");
 const ru = require("date-fns/locale/ru");
@@ -93,6 +94,10 @@ module.exports = function(eleventyConfig) {
     }
 
     return content;
+  });
+
+  eleventyConfig.addPlugin(tinyCSS, {
+    output: 'public',
   });
 
   eleventyConfig.addPassthroughCopy("work");
