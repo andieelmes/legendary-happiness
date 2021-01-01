@@ -100,7 +100,6 @@ module.exports = function(eleventyConfig) {
     output: 'public',
   });
 
-  eleventyConfig.addPassthroughCopy("work");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("posts/**/*.(jpg|png|webp)");
 
