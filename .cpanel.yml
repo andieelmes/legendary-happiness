@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/var/www/u0330093/public_html/andieelmes.ru/
+    - /bin/cp -R public $DEPLOYPATH
