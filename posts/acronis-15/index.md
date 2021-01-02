@@ -22,4 +22,4 @@ layout: layouts/post.njk
 
 На мобилках fullpage.js не используется, и история компании показывается на одной странице:
 
-![Скриншот мобильной версии](./images/se.jpg){loading=lazy}
+![Скриншот мобильной версии](./images/se.png){loading=lazy width="374" height="784"}
