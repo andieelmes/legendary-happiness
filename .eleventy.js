@@ -5,7 +5,6 @@ const implicitFigures = require('markdown-it-implicit-figures');
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
 const embedYouTube = require("eleventy-plugin-youtube-embed");
-const pluginSass = require("eleventy-plugin-sass");
 const tinyCSS = require('@greyskullrocks/eleventy-plugin-tinycss');
 const htmlmin = require("html-minifier");
 const format = require("date-fns/format");
@@ -17,10 +16,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(embedYouTube, {
     lazy: true,
     noCookie: false,
-  });
-  eleventyConfig.addPlugin(pluginSass, {
-    watch: ['css/**/*.scss'],
-    outputDir: 'public/css',
   });
 
   eleventyConfig.setDataDeepMerge(true);
@@ -96,6 +91,7 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addWatchTarget('css/*.scss');
   eleventyConfig.addPlugin(tinyCSS, {
     output: 'public',
   });
