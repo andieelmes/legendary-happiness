@@ -17,4 +17,4 @@ https://youtu.be/faFw2ef5ES4
 
 Для показа отзывов использовала фотораму. Нужно было учесть, что длина отзывов может быть разной.
 
-![Скриншот отзывов](./images/netcat-1.png){ loading=lazy }
+![Скриншот отзывов](./images/netcat-1.png){loading=lazy}

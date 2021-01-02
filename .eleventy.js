@@ -118,7 +118,7 @@ module.exports = function(eleventyConfig) {
     linkify: true,
     typographer: true,
     quotes: '«»„“',
-  }).use(implicitFigures).use(markdownItAttrs);
+  }).use(markdownItAttrs).use(implicitFigures);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides

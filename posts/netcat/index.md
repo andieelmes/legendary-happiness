@@ -12,35 +12,35 @@ layout: layouts/post.njk
 
 Ожидала, что будут правки, но их не было.
 
-[![Скриншот страницы поддержки](./images/support-0.png){ loading=lazy }](/test/netcat_projects/support.html)
+[![Скриншот страницы поддержки](./images/support-0.png){loading=lazy}](/test/netcat_projects/support.html)
 
 Интереснее всего было верстать таблицы. Мои вкусы очень специфичны — с удовольствием подбирала интерлиньяж и поля, пока таблица не встала ровно по макету. На декстопе они выглядят так:
 
-![Скриншот таблицы страницы поддержки](./images/support-1.png){ loading=lazy }
+![Скриншот таблицы страницы поддержки](./images/support-1.png){loading=lazy}
 
 А на телефоне так:
 
-![Скриншот таблицы мобильной страницы поддержки](./images/support-2.png){ loading=lazy }
+![Скриншот таблицы мобильной страницы поддержки](./images/support-2.png){loading=lazy}
 
 Дизайнер предложила сделать еще одну страницу, а потом еще одну... Так я и верстаю страницы Неткэта уже два месяца.
 
 Страница базы знаний похожа на страницу поддержки:
 
-[![Скриншот страницы базы данных](./images/support-3.png){ loading=lazy }](/test/netcat_projects/support-1.html)
+[![Скриншот страницы базы данных](./images/support-3.png){loading=lazy}](/test/netcat_projects/support-1.html)
 
 Страницу нагрузок нужно было сверстать за день:
 
-[![Скриншот страницы высоких нагрузок](./images/under-pressure.png){ loading=lazy }](/test/netcat_projects/loads.html)
+[![Скриншот страницы высоких нагрузок](./images/under-pressure.png){loading=lazy}](/test/netcat_projects/loads.html)
 
 При верстке страницы портфолио использовала фотораму (с кастомными кнопками) и позаботилась о трафике. При сворачивании блоков я их не удаляю, а прячу, что не нужно было загружать их заново.
 
-[![Скриншот страницы портфолио](./images/portfolio.png){ loading=lazy }](/test/netcat_projects/portfolio.html)
+[![Скриншот страницы портфолио](./images/portfolio.png){loading=lazy}](/test/netcat_projects/portfolio.html)
 
 При загрузке страницы зигзаги на фоне «рисуются». Анимация завязана на свойство stroke-dashoffset элемента polyline.
 
 Ещё работала с чужим кодом — переделывала анимацию и адаптив главной страницы Неткэта.
 
-[![Скриншот главной](./images/main.png){ width="375" height="667" loading=lazy }](/test/netcat_main--adaptive/)
+[![Скриншот главной](./images/main.png){width="375" height="667" loading=lazy}](/test/netcat_main--adaptive/)
 
 Свежих исходников не было, страница успела поменяться. Чтобы вытянуть код страницы, установила wget.
 Контент веб-страницы, со всеми зависимостями и файлами скачивается так:
