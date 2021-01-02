@@ -70,6 +70,10 @@ a:focus {
   font-weight: 500;
   color: var(--light-purple);
 
+  &:visited {
+    color: #945652;
+  }
+
   &:hover {
     color: var(--cyan);
   }
@@ -77,4 +81,8 @@ a:focus {
 
 .link_theme_secondary {
   color: var(--light-grey);
+
+  &:visited {
+    color: inherit;
+  }
 }
