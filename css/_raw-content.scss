@@ -27,6 +27,10 @@
     box-shadow: inset 0 -2px 0 var(--background-color-inline-link), 0 2px 0 var(--background-color-inline-link);
     color: inherit;
     transition: box-shadow 0.30s;
+
+    @media (prefers-reduced-motion) {
+      transition: none;
+    }
   }
 
   a:hover {
