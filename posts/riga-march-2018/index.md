@@ -1,7 +1,7 @@
 ---
 title: Рига, март 2018
 description: Трамваи и классный зоопарк
-date: 2018-07-25
+date: 2018-07-23
 tags:
   - riga
   - travel

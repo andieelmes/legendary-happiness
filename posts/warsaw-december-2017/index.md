@@ -1,7 +1,7 @@
 ---
 title: Варшава, декабрь 2017
 description: Бесснежное рождество
-date: 2018-07-25
+date: 2018-07-22
 tags:
   - travel
   - warsaw
