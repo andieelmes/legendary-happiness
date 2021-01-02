@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A legendary happiness blog using the Eleventy static site generator.",
   "scripts": {
-    "serve": "eleventy --serve",
+    "serve": "eleventy --serve --watch",
     "sass": "sass --style=compressed --no-source-map css/index.scss public/css/index.css",
     "watch:sass": "npm run sass -- --watch",
     "start": "npm-run-all --parallel watch:sass serve",
