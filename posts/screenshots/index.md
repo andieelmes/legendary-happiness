@@ -15,4 +15,4 @@ layout: layouts/post.njk
 
 И сделать скриншот сразу с рамкой, нажав на “Capture screenshot”!
 
-![Скриншот страницы с рамкой](./images/se.jpg){loading=lazy}
+![Скриншот страницы с рамкой](./images/se.png){loading=lazy width="374" height="784"}
