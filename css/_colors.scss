@@ -10,4 +10,22 @@
   --cyan: #00C6CA;
   --dark-cyan: #1E8C8D;
   --blue:  rgba(0, 102, 255, 0.5);
+  --dark-red: #945652;
+
+  --color-body: var(--dark-grey);
+  --color-secondary: var(--light-grey);
+  --color-inverted: var(--white);
+  --color-post-link: var(--light-purple);
+  --color-post-link-visited: var(--dark-red);
+  --color-post-link-hover: var(--cyan);
+
+  --background-color-body: var(--white);
+  --background-color-inverted: var(--dark-grey);
+  --background-color-inverted-hover: var(--dark-cyan);
+  --background-color-block-code: var(--lighter-grey);
+  --background-color-inline-code: var(--lighter-grey-2);
+  --background-color-inline-link: var(--blue);
+
+  --focus-color: var(--deep-champagne);
+  --highlight-color: var(--yellow);
 }
