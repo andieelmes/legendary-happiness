@@ -8,4 +8,8 @@
     width: 150px;
     height: 150px;
   }
+
+  @media (prefers-color-scheme: dark) {
+    border: 2px solid var(--background-color-inverted);
+  }
 }
