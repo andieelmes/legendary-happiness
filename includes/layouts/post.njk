@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+templateClass: post
+---
+<article class="post">
+  <h1 class="post__title page-title"> {{ title }}</h1>
+
+  <div class="post__meta meta">
+    <time class="datetime meta__datetime" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+
+    {% set tagList = tags %}
+    {% set mix = "meta__tags" %}
+    {% include "components/tag-list.njk" %}
+  </div>
+
+  <div class="post__content raw-content">{{ content | safe }}</div>
+
+  <ul class="post__next post-list post-list_view_inline">
+    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+    {%- if nextPost %}
+      <li class="post-list__item"> ← <a href="{{ nextPost.url | url }}" class="link">{{ nextPost.data.title }}</a></li>
+    {% endif %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+    {%- if previousPost %}
+      <li class="post-list__item"> → <a href="{{ previousPost.url | url }}" class="link">{{ previousPost.data.title }}</a></li>
+    {% endif %}
+  </ul>
+</article>

@@ -1,0 +1,16 @@
+.document_home {
+  .document__header {
+    @include visually-hidden;
+  }
+
+  @media (min-width: 1024px) {
+    .document__main {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .document__footer {
+      margin-top: 0;
+    }
+  }
+}

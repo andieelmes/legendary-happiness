@@ -1,0 +1,19 @@
+<ul class="post-list">
+  {% for post in postlist | reverse %}
+    <li class="post-list__item post-card">
+      <a href="{{ post.url | url }}" class="post-card__link link">
+        {% if post.data.title %}
+          {{ post.data.title | trim }}
+        {% else %}
+          <code>{{ post.url }}</code>
+        {% endif %}
+      </a>
+
+      {% set tagList = post.data.tags %}
+      {% set mix = "post-card__tags" %}
+      {% include "components/tag-list.njk" %}
+
+      <time class="post-card__date datetime" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </li>
+  {% endfor %}
+</ul>

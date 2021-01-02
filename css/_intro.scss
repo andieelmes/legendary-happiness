@@ -1,0 +1,32 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.intro__avatar {
+  flex-shrink: 0;
+  margin-bottom: 20px;
+
+  @media (min-width: 1024px) {
+    order: 2;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+}
+
+.intro__content, .intro__content h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.intro__content p:not(:last-child),
+.intro__content h1:not(:last-child) {
+  margin: 1em 0;
+}

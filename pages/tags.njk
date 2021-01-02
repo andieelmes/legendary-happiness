@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+layout: layouts/default.njk
+eleventyComputed:
+  title: Посты с тегом «{{ tag }}»
+permalink: /tags/{{ tag }}/
+---
+<h1 class="page-title"> Посты с тегом «<mark class="mark">{{ tag }}</mark>»</h1>
+
+{% set postlist = collections[ tag ] %}
+{% include "components/post-list.njk" %}
+
+<p><a href="{{ '/tags/' | url }}" class="link link_theme_secondary">Все теги</a></p>
