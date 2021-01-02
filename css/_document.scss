@@ -21,6 +21,7 @@ body {
 a:focus {
   outline-color: var(--focus-color);
   outline-offset: 2px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .trim {
