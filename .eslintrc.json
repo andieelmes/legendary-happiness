@@ -11,7 +11,7 @@
     "ecmaVersion": 12
   },
   "rules": {
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": [".eleventy.js"]}],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": [".eleventy.js", "helpers/*.js"]}],
     "no-restricted-syntax": [
       "error",
       {

@@ -9,6 +9,7 @@ const tinyCSS = require('@greyskullrocks/eleventy-plugin-tinycss');
 const htmlmin = require('html-minifier');
 const format = require('date-fns/format');
 const ru = require('date-fns/locale/ru');
+const placeholder = require('./helpers/placeholder');
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginRss);
@@ -24,10 +25,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter('readableDate', (dateObj) => format(dateObj, 'd MMMM yyyy', { locale: ru }));
 
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => format(dateObj, 'yyyy-LL-dd'));
 
-  // Get the first `n` elements of a collection.
   eleventyConfig.addFilter('head', (array, n) => {
     if (n < 0) {
       return array.slice(n);
@@ -48,7 +47,6 @@ module.exports = (eleventyConfig) => {
 
         tags = tags.filter((tagItem) => {
           switch (tagItem) {
-            // this list should match the `filter` list in tags.njk
             case 'all':
             case 'nav':
             case 'post':
@@ -65,12 +63,10 @@ module.exports = (eleventyConfig) => {
       }
     });
 
-    // returning an array in addCollection works in Eleventy 0.5.3
     return [...tagSet];
   });
 
   eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
     if (outputPath.endsWith('.html')) {
       const minified = htmlmin.minify(content, {
         useShortDoctype: true,
@@ -103,17 +99,21 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('safari-pinned-tab.svg');
 
-  /* Markdown Overrides */
-  const markdownLibrary = markdownIt({
+  const markdownItConfig = {
     html: true,
     breaks: true,
     linkify: true,
     typographer: true,
     quotes: '«»„“',
-  }).use(markdownItAttrs).use(implicitFigures);
+  }
+
+  const markdownLibrary = markdownIt(markdownItConfig)
+    .use(markdownItAttrs)
+    .use(implicitFigures)
+    .use(placeholder);
+
   eleventyConfig.setLibrary('md', markdownLibrary);
 
-  // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready(err, browserSync) {
@@ -137,22 +137,9 @@ module.exports = (eleventyConfig) => {
       'html',
       'liquid',
     ],
-
-    // If your site lives in a different subdirectory, change this.
-    // Leading or trailing slashes are all normalized away, so don’t worry about those.
-
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
-    // This is only used for link URLs (it does not affect your file structure)
-    // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
-
-    // You can also pass this in on the command line using `--pathprefix`
-    // pathPrefix: "/",
-
     markdownTemplateEngine: 'liquid',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
-
-    // These are all optional, defaults are shown:
     dir: {
       input: '.',
       includes: 'includes',
