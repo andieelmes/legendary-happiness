@@ -3,7 +3,7 @@ cache:
   directories:
   - "~/.npm"
 node_js:
-- 12
+- 18
 addons:
   ssh_known_hosts: 31.31.198.239
 script: npm run build
