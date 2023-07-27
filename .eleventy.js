@@ -1,4 +1,3 @@
-const fs = require('fs');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const implicitFigures = require('markdown-it-implicit-figures');
@@ -113,22 +112,7 @@ module.exports = (eleventyConfig) => {
   }).use(markdownItAttrs).use(implicitFigures);
   eleventyConfig.setLibrary('md', markdownLibrary);
 
-  // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready(err, browserSync) {
-        const content404 = fs.readFileSync('public/404.html');
-
-        browserSync.addMiddleware('*', (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content404);
-          res.end();
-        });
-      },
-    },
-    ui: false,
-    ghostMode: false,
-  });
+  eleventyConfig.setServerOptions();
 
   return {
     templateFormats: [
