@@ -11,7 +11,7 @@
     "prebuild": "npm run lint && npm run clean-dist-dir",
     "build": "npm run sass && eleventy",
     "debug": "DEBUG=* eleventy",
-    "lint:scss": "stylelint css/*.scss --syntax scss --fix --config .stylelintrc --cache --allow-empty-input",
+    "lint:scss": "stylelint css/*.scss --custom-syntax postcss-scss --fix --config .stylelintrc --cache --allow-empty-input",
     "lint:js": "eslint --no-ignore '.eleventy.js' --cache --fix --config ./.eslintrc.json",
     "lint": "npm-run-all lint:**",
     "prepare": "npx simple-git-hooks"
@@ -41,11 +41,12 @@
     "markdown-it-attrs": "4.1.6",
     "markdown-it-implicit-figures": "0.11.0",
     "npm-run-all": "4.1.5",
+    "postcss-scss": "4.0.6",
     "sass": "1.32.0",
     "simple-git-hooks": "2.9.0",
-    "stylelint": "13.8.0",
-    "stylelint-order": "4.1.0",
-    "stylelint-scss": "3.18.0"
+    "stylelint": "15.10.2",
+    "stylelint-order": "6.0.3",
+    "stylelint-scss": "5.0.1"
   },
   "simple-git-hooks": {
     "pre-push": "npm run lint"
